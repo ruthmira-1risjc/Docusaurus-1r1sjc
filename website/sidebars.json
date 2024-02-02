@@ -1,9 +1,9 @@
 {
   "docs": {
     "Docusaurus": ["doc1"],
-    "Classes": ["doc2"],
-    "First Category": ["do3"],
-    "Second Category": ["doc4"]
+    "First Category": ["doc2"],
+    "Second Category": ["doc3"],
+    "Classes": ["doc9"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]

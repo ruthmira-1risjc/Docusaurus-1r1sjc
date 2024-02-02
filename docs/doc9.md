@@ -1,7 +1,9 @@
 ---
 id: doc9
-title: O que é uma Classe em Python?
+title: O que são Classses em Python?
 ---
+
+I can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
 # Classes (Class) 
 

@@ -3,5 +3,4 @@ id: doc4
 title: Other Document
 ---
 
-Another Other
-
+this is another document
