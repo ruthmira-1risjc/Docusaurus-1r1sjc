@@ -1,5 +1,5 @@
 ---
-id: doc9
+id: doc2
 title: O que são Classses em Python?
 ---
 
@@ -204,8 +204,3 @@ print(estudante1.sobrenome)
 print(estudante1.matricula)  
 estudante1.falar("Olá!")
 ~~~
-
-
-* Hey
-* Ho
-* Let's Go
