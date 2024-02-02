@@ -21,7 +21,7 @@ const users = [
 ];
 
 const siteConfig = {
-  title: '1RISjc', // Title for your website.
+  title: '1RISJC', // Title for your website.
   tagline: 'Em construção',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
@@ -48,9 +48,9 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  headerIcon: 'img/Logo_1r1sjc.png',
+  footerIcon: 'img/Logo_1r1sjc.png',
+  favicon: 'img/Logo_1r1sjc.png',
 
   /* Colors for website */
   colors: {
