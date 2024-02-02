@@ -10,7 +10,7 @@ function HelloWorld(props) {
     <div className="docMainWrapper wrapper">
       <Container className="mainContainer documentContainer postContainer">
         <h1>Hello World!</h1>
-        <p>This is my first page!</p>
+        <p>Eu posso escrever JSX aqui!</p>
       </Container>
     </div>
   );
