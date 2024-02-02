@@ -96,8 +96,8 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>Saiba mais em:</h2>
+        <MarkdownBlock>[Clique aqui para acessar nosso site](https://www.1risjc.com.br/)</MarkdownBlock>
       </div>
     );
 
@@ -130,16 +130,18 @@ class Index extends React.Component {
         ]}
       </Block>
     );
+    
 
     const LearnHow = () => (
       <Block background="light">
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              'Para mais informações do Cartório, você pode acessar nossoo site: www.1risjc.com.br',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Sobre o 1º RISJC',
+            textAlign:'center'
           },
         ]}
       </Block>
@@ -149,16 +151,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'O Projeto Pré-Protocolo tem como intuito agilizar os atendimentos realidos no balcão , através de um formulário simples e dinâmico disponibilizado em nossos tablets locais irá trazer mais conforto para nossos clientes.',
+            image: `${baseUrl}img/depoimento.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Projeto Pré-Protocolo',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'O Projeto RUDA é uma implementação automatização, onde atraves da bibiblioteca OCR extraimos os dados dos documentos e alimentamos nossos sistemas internos. Também implementamos um agendador que buscar monitorar as pasta que são inseridos os documentos scaneados e já aciona nosso extrator , assim o usuário não precisa esperar que aquela informação apaareça no banco , pois esta estará sempre sendo alimentada.',
+            image: `${baseUrl}img/ocr.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Projeto RUDA',
           },
         ]}
       </Block>
@@ -199,7 +201,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
-          <FeatureCallout />
+          {/* <FeatureCallout /> */}
           <LearnHow />
           <TryOut />
           <Description />
