@@ -5,7 +5,7 @@ title: O que são Classses em Python?
 
 I can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
 
-# Classes (Class) 
+## Classes (Class) 
 
 **Uma classe em Python é uma estrutura que define um tipo de objeto, com seus próprios atributos e métodos.** 
 
@@ -16,7 +16,7 @@ class Pessoa:
 
 Classes proporcionam uma forma de organizar dados e funcionalidades juntos. Criar uma nova classe cria um novo “tipo” de objeto, permitindo que novas “instâncias” desse tipo sejam produzidas. Cada instância da classe pode ter atributos anexados a ela, para manter seu estado. Instâncias da classe também podem ter métodos (definidos pela classe) para modificar seu estado.
 
-# Objetos
+## Objetos
 **Um objeto é uma instância de uma classe, com seu próprio conjunto de valores únicos para os atributos definidos na classe.**
  
 Isso significa que ele herda todos os métodos e propriedades definidos na classe. Diferentes objetos podem ter diferentes estados, mas todos seguirão o mesmo conjunto de regras estabelecido pela classe.
@@ -40,7 +40,7 @@ class Pessoa:
 
 Dessa forma podemos acessar e manipular esta instância.
 
-# Atributos (variáveis)
+## Atributos (variáveis)
 
 **Um atributo é uma variável que armazena algum valor relacionado ao objeto.**
 
@@ -67,7 +67,7 @@ print(pessoa1.aame)  # Saída: Maria
 
 Assim acessamos o atributo `name` da instância `pessoa1` e o modificamos para `Maria”`.
 
-# Método (funções)
+## Método (funções)
 **Um método é uma função que realiza alguma ação sobre o objeto ou com os seus atributos.**
 
 Um método é uma função que “pertence” a um `objeto instância`. Em Python, o termo método não é aplicado exclusivamente a instâncias de classes definidas pelo usuário: outros tipos de objetos também podem ter métodos. Por exemplo, listas possuem os métodos append, insert, remove, sort, entre outros.
@@ -94,7 +94,7 @@ pessoa1 = Pessoa(name=Any,sobrenome=Any)
 pessoa1.falar("Olá!")  # Saída: João Almeida diz: Olá!
 ~~~~
 
-# Construtores
+## Construtores
 
 A tarefa dos construtores é inicializar (atribuir valores) aos membros de dados da classe quando um objeto da classe é criado. Em Python, o método __init __() é chamado de construtor e é sempre chamado quando um objeto é criado.
 
@@ -171,7 +171,7 @@ Segundo néumro = 2000
 Adição de dos números = 3000
 ~~~~
 
-# Herança de Classe
+## Herança de Classe
 
 `Herança` é um conceito que permite criar classes novas a partir de classes já existentes. 
 A classe nova, chamada de classe derivada ou `subclasse`, recebe todos os atributos e métodos da classe original, chamada de classe base.

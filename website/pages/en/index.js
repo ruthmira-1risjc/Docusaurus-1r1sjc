@@ -106,16 +106,17 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              'Para mantermos um ambiente organizado, nossos códigos ficam armazenados em repositórios do GitHub.' +
+              'Para utilização e entendimento dos projetos temos uma documentação nesste site , que poderá facilitar sua aplicação. <br />'+
+              'Visite nosso perfil : <a href="https://github.com/1-Oficial-de-Registro-de-Imoveis">**1° RISJC**</a>',
             image: `${baseUrl}img/undraw_code_review.svg`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Sobre nosso Legado',
           },
         ]}
       </Block>
     );
+    
 
     const Description = () => (
       <Block background="dark">
@@ -125,7 +126,7 @@ class Index extends React.Component {
               'This is another description of how this project is useful',
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Em construção',
           },
         ]}
       </Block>
@@ -137,7 +138,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Para mais informações do Cartório, você pode acessar nossoo site: www.1risjc.com.br',
+              'Para mais informações do Cartório, você pode acessar nosso site: **www.1risjc.com.br**',
             image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
             imageAlign: 'right',
             title: 'Sobre o 1º RISJC',
@@ -157,7 +158,7 @@ class Index extends React.Component {
             title: 'Projeto Pré-Protocolo',
           },
           {
-            content: 'O Projeto RUDA é uma implementação automatização, onde atraves da bibiblioteca OCR extraimos os dados dos documentos e alimentamos nossos sistemas internos. Também implementamos um agendador que buscar monitorar as pasta que são inseridos os documentos scaneados e já aciona nosso extrator , assim o usuário não precisa esperar que aquela informação apaareça no banco , pois esta estará sempre sendo alimentada.',
+            content: 'O Projeto RUDA é uma implementação de automatização, onde atraves da bibiblioteca OCR extraimos os dados dos documentos e alimentamos nossos sistemas internos. Também implementamos um agendador que busca monitorar os arquivos inseridos na pasta alvo, já aciona nosso extrator , assim o usuário não precisa esperar que aquela informação apaareça no banco , pois esta estará sempre sendo alimentada.',
             image: `${baseUrl}img/ocr.png`,
             imageAlign: 'top',
             title: 'Projeto RUDA',
@@ -184,11 +185,14 @@ class Index extends React.Component {
 
       return (
         <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
           <div className="logos">{showcase}</div>
+          <h4><strong>Ruth Mira</strong></h4>
+          <sub>Developer</sub>
+          <p><em>" Estudante de Banco de Dados e desenvolvedora, atualmente utilizando diversas biblioetecas e com conhecimento em nas Linguagens : Javascript, Python etc. "</em></p>
+          <p></p>
+          <p></p>
           <div className="more-users">
-            <a className="button" href={pageUrl('users.html')}>
+            <a className="text" href={pageUrl('users.html')}>
               More {siteConfig.title} Users
             </a>
           </div>

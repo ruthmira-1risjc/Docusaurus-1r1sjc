@@ -1,29 +1,107 @@
 ---
 id: doc1
-title: Latin-ish
-sidebar_label: Example Page
+title: Docusaurus
+sidebar_label: Primeiros passos!
 ---
 
-Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+Este website foi criado com  [Docusaurus](https://docusaurus.io/).
 
-## Lorem
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus elementum massa eget nulla aliquet sagittis. Proin odio tortor, vulputate ut odio in, ultrices ultricies augue. Cras ornare ultrices lorem malesuada iaculis. Etiam sit amet libero tempor, pulvinar mauris sed, sollicitudin sapien.
+![img alt](/img/docusaurus.png)
 
-## Mauris In Code
+## O que é Docusaurus?
+O Docusaurus é um gerador de sites estáticos que utiliza o React, uma das principais bibliotecas JavaScript, para a criação de páginas. Ele é especialmente voltado para a criação e gerenciamento de sites onde o conteúdo é o protagonista.
+
+Ele permite que você crie um site completo, com recursos como blog, de forma rápida e fácil, destacando seu conteúdo desde o início. Como o conteúdo é o foco com Docusaurus, é perfeito para criar sites de documentação como wikis. Ele também utiliza markdown, que é ideal tanto para colaboração quanto para armazenamento em um repositório git.
+
+Além disso, o Docusaurus tem uma tonelada de recursos incríveis como i18n, pesquisa e temas personalizados.
+
+
+## Requirements
+
+[Node.js](https://nodejs.org/en/download/) version 18.0.
 
 ```
-Mauris vestibulum ullamcorper nibh, ut semper purus pulvinar ut. Donec volutpat orci sit amet mauris malesuada, non pulvinar augue aliquam. Vestibulum ultricies at urna ut suscipit. Morbi iaculis, erat at imperdiet semper, ipsum nulla sodales erat, eget tincidunt justo dui quis justo. Pellentesque dictum bibendum diam at aliquet. Sed pulvinar, dolor quis finibus ornare, eros odio facilisis erat, eu rhoncus nunc dui sed ex. Nunc gravida dui massa, sed ornare arcu tincidunt sit amet. Maecenas efficitur sapien neque, a laoreet libero feugiat ut.
+sudo apt-get install -y nodejs
+```
+Ao instalar o Node.js, é recomendável que você marque todas as caixas de seleção relacionadas às dependências.
+
+## Instalação
+
+Agora podemos começar criando nosso primeiro website com o docsaurus.
+
+## Website
+
+Nesses tutorial iremos utilizar as linhas de comando, é possível criar o esqueleto com as pastas e exemplos iniciais mais simples do website.
+Em um repositório vazio utilize esta linha de comando, e ele criará o diretório.
+
+```
+npx create-docusaurus@latest my-website classic
 ```
 
-## Nulla
+## Estrutura do Projeto
 
-Nulla facilisi. Maecenas sodales nec purus eget posuere. Sed sapien quam, pretium a risus in, porttitor dapibus erat. Sed sit amet fringilla ipsum, eget iaculis augue. Integer sollicitudin tortor quis ultricies aliquam. Suspendisse fringilla nunc in tellus cursus, at placerat tellus scelerisque. Sed tempus elit a sollicitudin rhoncus. Nulla facilisi. Morbi nec dolor dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras et aliquet lectus. Pellentesque sit amet eros nisi. Quisque ac sapien in sapien congue accumsan. Nullam in posuere ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin lacinia leo a nibh fringilla pharetra.
+Irá aparecer uma estrutura similar a esta em seu repositório.
 
-## Orci
+```
+meu-site
+├── blog
+│   ├── 2019-05-28-hola.md
+│   ├── 2019-05-29-hello-world.md
+│   └── 2020-05-30-welcome.md
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   └── mdx.md
+├── src
+│   ├── css
+│   │   └── custom.css
+│   └── pages
+│       ├── styles.module.css
+│       └── index.js
+├── static
+│   └── img
+├── docusaurus.config.js
+├── package.json
+├── README.md
+├── sidebars.js
+└── yarn.lock
 
-Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Proin venenatis lectus dui, vel ultrices ante bibendum hendrerit. Aenean egestas feugiat dui id hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Curabitur in tellus laoreet, eleifend nunc id, viverra leo. Proin vulputate non dolor vel vulputate. Curabitur pretium lobortis felis, sit amet finibus lorem suscipit ut. Sed non mollis risus. Duis sagittis, mi in euismod tincidunt, nunc mauris vestibulum urna, at euismod est elit quis erat. Phasellus accumsan vitae neque eu placerat. In elementum arcu nec tellus imperdiet, eget maximus nulla sodales. Curabitur eu sapien eget nisl sodales fermentum.
+```
 
-## Phasellus
+Sobre a estrutura das pastas:
+#### blog 
+Contém os arquivos Markdown do blog. Mais detalhes podem ser encontrados no guia do [Blog](https://docusaurus.io/pt-BR/docs/blog)
+#### docs 
+Contém os arquivos Markdown para os documentos. Personalize a ordem da barra lateral `sidebars.js path`. Mais detalhes podem ser encontrados no [Docs](https://docusaurus.io/pt-BR/docs/docs-introduction.).
+#### scr  
+É opcional colocar seus arquivos não relacionados à documentação aqui.é válido para organizaçaõ do projeto em si.
+##### src/pages
+Aceita arquivos JSX/TSX/MDX serão convertidos em páginas do seu site. Mais detalhes podem ser encontrados no [Pages](https://docusaurus.io/pt-BR/docs/creating-pages)
+#### static 
+Pasta de arquivos estáricos. Todos arquivos aqui serão copiados para raiz do direótiro `build`. 
+#### docusaurus.config.js 
+O arquivo que contém toda a configuração do site. == `siteConfg.js`
+#### package.json 
+Você pode instalar e usar quaisquer pacotes npm que você goste.
+#### sidebars.js 
+Usado pela documentação para organizar a ordem dos documentos na barra lateral.
 
-Phasellus pulvinar ex id commodo imperdiet. Praesent odio nibh, sollicitudin sit amet faucibus id, placerat at metus. Donec vitae eros vitae tortor hendrerit finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vitae purus dolor. Duis suscipit ac nulla et finibus. Phasellus ac sem sed dui dictum gravida. Phasellus eleifend vestibulum facilisis. Integer pharetra nec enim vitae mattis. Duis auctor, lectus quis condimentum bibendum, nunc dolor aliquam massa, id bibendum orci velit quis magna. Ut volutpat nulla nunc, sed interdum magna condimentum non. Sed urna metus, scelerisque vitae consectetur a, feugiat quis magna. Donec dignissim ornare nisl, eget tempor risus malesuada quis.
+## Executando servidor 
+Você pode usar um servidor local de desenvolvimento para servir seu site e visualizar as alterações , conforme o constrói.
+
+```
+cd meu-site
+npm run start
+```
+ou
+```
+cd meu-site
+yarn run start
+```
+
+
+Por padrão, uma janela do navegador será aberta em http://localhost:3000.
+
+Parabéns! Você acabou de criar o seu primeiro site no Docusaurus! Navegue pelo site para ver o que está disponível.
