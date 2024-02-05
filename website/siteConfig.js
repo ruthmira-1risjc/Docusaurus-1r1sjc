@@ -14,7 +14,7 @@ const users = [
     caption: 'Ruth Mira',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/image.jpg'.
-    image: 'img/user-interface.png',
+    image: 'img/undraw_teacher_re_sico.svg',
     infoLink: 'https://github.com/ruthmira-1risjc',
     pinned: true,
   },

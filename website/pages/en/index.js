@@ -109,7 +109,7 @@ class Index extends React.Component {
               'Para mantermos um ambiente organizado, nossos códigos ficam armazenados em repositórios do GitHub.' +
               'Para utilização e entendimento dos projetos temos uma documentação nesste site , que poderá facilitar sua aplicação. <br />'+
               'Visite nosso perfil : <a href="https://github.com/1-Oficial-de-Registro-de-Imoveis">**1° RISJC**</a>',
-            image: `${baseUrl}img/undraw_code_review.svg`,
+            image: `${baseUrl}img/undraw_pair_programming_re_or4x.svg`,
             imageAlign: 'left',
             title: 'Sobre nosso Legado',
           },
@@ -139,7 +139,7 @@ class Index extends React.Component {
           {
             content:
               'Para mais informações do Cartório, você pode acessar nosso site: **www.1risjc.com.br**',
-            image: `${baseUrl}img/undraw_youtube_tutorial.svg`,
+            image: `${baseUrl}img/undraw_location_review_d5qn.svg`,
             imageAlign: 'right',
             title: 'Sobre o 1º RISJC',
             textAlign:'center'
@@ -158,10 +158,16 @@ class Index extends React.Component {
             title: 'Projeto Pré-Protocolo',
           },
           {
-            content: 'O Projeto RUDA é uma implementação de automatização, onde atraves da bibiblioteca OCR extraimos os dados dos documentos e alimentamos nossos sistemas internos. Também implementamos um agendador que busca monitorar os arquivos inseridos na pasta alvo, já aciona nosso extrator , assim o usuário não precisa esperar que aquela informação apaareça no banco , pois esta estará sempre sendo alimentada.',
+            content: 'O Projeto RUDA - OCR é uma implementação de automatização, onde atraves da bibiblioteca OCR extraimos os dados dos documentos e alimentamos nossos sistemas internos. Também implementamos um agendador que busca monitorar os arquivos inseridos na pasta alvo, já aciona nosso extrator , assim o usuário não precisa esperar que aquela informação apaareça no banco , pois esta estará sempre sendo alimentada.',
             image: `${baseUrl}img/ocr.png`,
             imageAlign: 'top',
             title: 'Projeto RUDA',
+          },
+          {
+            content: 'O Projeto Gloob é um agedador, ele monitora um diretório em especifico e lista os arquivos daquela pasta. é possível identificar com ele se há arquivos novos naquele diretório, dado o time que é programado. Implementamos ele com o Projeto RUDA-OCR onde ele sinalizava que havia um arquivo novo para extração de dados.',
+            image: `${baseUrl}img/agendar.png`,
+            imageAlign: 'top',
+            title: 'Projeto Gloob',
           },
         ]}
       </Block>
