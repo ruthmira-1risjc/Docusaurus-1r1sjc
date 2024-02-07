@@ -2586,3 +2586,561 @@
 [2024-02-07 12:06:41Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
 [2024-02-07 12:06:41Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
 [2024-02-07 12:06:41Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:47Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:51Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:51Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:51Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:51Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:52Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2024-02-07 12:06:52Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Finished process 27780 with exit code 0, and elapsed time 00:00:42.5350311.
+[2024-02-07 12:06:55Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\_runner_file_commands\step_summary_d4a863fc-4053-44b9-9a48-4a2997232dac) is empty; skipping attachment upload
+[2024-02-07 12:06:55Z INFO StepsRunner] Step result: 
+[2024-02-07 12:06:55Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "dd23db01-cff6-57a4-373a-5c8097a97333",
+  "stepContextName": "__run",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 43,
+  "startTime": "2024-02-07T12:06:12.8822513Z",
+  "finishTime": "2024-02-07T12:06:55.4654133Z"
+}.
+[2024-02-07 12:06:55Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-02-07 12:06:55Z INFO StepsRunner] Current state: job state = ''
+[2024-02-07 12:06:55Z INFO StepsRunner] Processing step: DisplayName='Post Run actions/checkout@v3'
+[2024-02-07 12:06:55Z INFO StepsRunner] Evaluating: always()
+[2024-02-07 12:06:55Z INFO StepsRunner] Result: true
+[2024-02-07 12:06:55Z INFO StepsRunner] Starting the step.
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO StepsRunner] Which: 'chcp'
+[2024-02-07 12:06:55Z INFO StepsRunner] Location: 'C:\Windows\system32\chcp.COM'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\system32\chcp.COM'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Process started with process id 3796, waiting for process exit.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Finished process 3796 with exit code 0, and elapsed time 00:00:00.0164326.
+[2024-02-07 12:06:55Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_actions'
+[2024-02-07 12:06:55Z INFO ActionManager] Load action that reference repository from 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_actions\actions\checkout\v3'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Actions': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_actions'
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Loaded action.yml file: {
+  "name": "Checkout",
+  "description": "Checkout a Git repository at a particular version",
+  "inputs": {
+    "type": 2,
+    "map": [
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 4,
+          "col": 3,
+          "lit": "repository"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 6,
+          "col": 14,
+          "expr": "github.repository"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 7,
+          "col": 3,
+          "lit": "ref"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 12,
+          "col": 3,
+          "lit": "token"
+        },
+        "value": {
+          "type": 3,
+          "file": 2,
+          "line": 24,
+          "col": 14,
+          "expr": "github.token"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 25,
+          "col": 3,
+          "lit": "ssh-key"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 37,
+          "col": 3,
+          "lit": "ssh-known-hosts"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 42,
+          "col": 3,
+          "lit": "ssh-strict"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 47,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 48,
+          "col": 3,
+          "lit": "persist-credentials"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 50,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 51,
+          "col": 3,
+          "lit": "path"
+        },
+        "value": ""
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 53,
+          "col": 3,
+          "lit": "clean"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 55,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 56,
+          "col": 3,
+          "lit": "sparse-checkout"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 60,
+          "col": 14,
+          "lit": ""
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 61,
+          "col": 3,
+          "lit": "sparse-checkout-cone-mode"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 64,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 65,
+          "col": 3,
+          "lit": "fetch-depth"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 67,
+          "col": 14,
+          "lit": "1"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 68,
+          "col": 3,
+          "lit": "fetch-tags"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 70,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 71,
+          "col": 3,
+          "lit": "lfs"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 73,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 74,
+          "col": 3,
+          "lit": "submodules"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 82,
+          "col": 14,
+          "lit": "false"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 83,
+          "col": 3,
+          "lit": "set-safe-directory"
+        },
+        "value": {
+          "type": 0,
+          "file": 2,
+          "line": 85,
+          "col": 14,
+          "lit": "true"
+        }
+      },
+      {
+        "key": {
+          "type": 0,
+          "file": 2,
+          "line": 86,
+          "col": 3,
+          "lit": "github-server-url"
+        },
+        "value": ""
+      }
+    ]
+  },
+  "execution": {
+    "executionType": "nodeJS",
+    "hasPre": false,
+    "hasPost": true,
+    "script": "dist/index.js",
+    "pre": null,
+    "post": "dist/index.js",
+    "nodeVersion": "node16",
+    "cleanupCondition": "always()",
+    "initCondition": "always()"
+  },
+  "deprecated": null
+}
+[2024-02-07 12:06:55Z INFO ActionManager] Action pre node.js file: N/A.
+[2024-02-07 12:06:55Z INFO ActionManager] Action node.js file: dist/index.js.
+[2024-02-07 12:06:55Z INFO ActionManager] Action post node.js file: dist/index.js.
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Temp': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp'
+[2024-02-07 12:06:55Z INFO ExecutionContext] Write event payload to C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\_github_workflow\event.json
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Work': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Temp': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp'
+[2024-02-07 12:06:55Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'repository': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 6,
+  "col": 14,
+  "lit": "ruthmira-1risjc/Docusaurus-1r1sjc"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'ref': default value evaluate result: ""
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'token': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 24,
+  "col": 14,
+  "lit": "***"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'ssh-key': default value evaluate result: ""
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'ssh-known-hosts': default value evaluate result: ""
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'ssh-strict': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 47,
+  "col": 14,
+  "lit": "true"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'persist-credentials': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 50,
+  "col": 14,
+  "lit": "true"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'path': default value evaluate result: ""
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'clean': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 55,
+  "col": 14,
+  "lit": "true"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'sparse-checkout': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 60,
+  "col": 14,
+  "lit": ""
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'sparse-checkout-cone-mode': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 64,
+  "col": 14,
+  "lit": "true"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'fetch-depth': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 67,
+  "col": 14,
+  "lit": "1"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'fetch-tags': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 70,
+  "col": 14,
+  "lit": "false"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'lfs': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 73,
+  "col": 14,
+  "lit": "false"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'submodules': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 82,
+  "col": 14,
+  "lit": "false"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'set-safe-directory': default value evaluate result: {
+  "type": 0,
+  "file": 2,
+  "line": 85,
+  "col": 14,
+  "lit": "true"
+}
+[2024-02-07 12:06:55Z INFO ActionManifestManager] Input 'github-server-url': default value evaluate result: ""
+[2024-02-07 12:06:55Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command set-env
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command set-output
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command save-state
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command add-path
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command warning
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command error
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command notice
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command debug
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command group
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2024-02-07 12:06:55Z INFO ActionCommandManager] Register action command extension for command echo
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:55Z INFO HostContext] Well known directory 'Externals': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\externals'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\externals\node16\bin\node.exe'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Arguments: '"C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_actions\actions\checkout\v3\dist/index.js"'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-02-07 12:06:55Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-02-07 12:06:55Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag\blocks\cacb3030-5b31-4f07-a84e-e4cd56498bd0_dd23db01-cff6-57a4-373a-5c8097a97333.1
+[2024-02-07 12:06:55Z INFO ProcessInvokerWrapper] Process started with process id 20284, waiting for process exit.
+[2024-02-07 12:06:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'dd23db01-cff6-57a4-373a-5c8097a97333', success rate: 1/1.
+[2024-02-07 12:06:55Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f1d083f0-1e16-473f-8721-d7f5c04556e5', success rate: 1/1.
+[2024-02-07 12:06:55Z INFO AddMaskCommandExtension] Add new secret mask with length of 32
+[2024-02-07 12:06:55Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-02-07 12:06:56Z INFO JobServerQueue] Tried to upload 1 file(s) to results, success rate: 1/1.
+[2024-02-07 12:06:56Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f1d083f0-1e16-473f-8721-d7f5c04556e5', success rate: 1/1.
+[2024-02-07 12:06:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-02-07 12:06:56Z INFO ProcessInvokerWrapper] Finished process 20284 with exit code 0, and elapsed time 00:00:00.9177065.
+[2024-02-07 12:06:56Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\_runner_file_commands\step_summary_33966a02-0853-464d-ab44-96ef2fc88fa2) is empty; skipping attachment upload
+[2024-02-07 12:06:56Z INFO StepsRunner] Step result: 
+[2024-02-07 12:06:56Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "actions/checkout",
+  "ref": "v3",
+  "type": "node16",
+  "stage": "Post",
+  "stepId": "f1d083f0-1e16-473f-8721-d7f5c04556e5",
+  "result": "succeeded",
+  "errorMessages": [
+    "The process 'C:\\Program Files\\Git\\cmd\\git.exe' failed with exit code 128"
+  ],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-02-07T12:06:55.4668889Z",
+  "finishTime": "2024-02-07T12:06:56.4248212Z"
+}.
+[2024-02-07 12:06:56Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-02-07 12:06:56Z INFO StepsRunner] Current state: job state = ''
+[2024-02-07 12:06:56Z INFO JobRunner] Finalize job.
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Diag': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag'
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:56Z INFO HostContext] Well known directory 'Diag': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag'
+[2024-02-07 12:06:56Z INFO JobExtension] Initialize Env context
+[2024-02-07 12:06:56Z INFO JobExtension] Initialize steps context
+[2024-02-07 12:06:56Z INFO JobExtension] Total accessible running process: 329.
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 25932 (SearchProtocolHost)
+[2024-02-07 12:06:56Z WARN JobExtension] Ignore exception during read process environment variables: Acesso negado.
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 27460 (docker)
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 14132 (conhost)
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 12440 (com.docker.cli)
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 20704 (docker-scout)
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 19060 (git)
+[2024-02-07 12:06:56Z WARN JobExtension] Ignore exception during read process environment variables: Cannot process request because the process (19060) has exited.
+[2024-02-07 12:06:56Z INFO JobExtension] Inspecting process environment variables. PID: 21236 (conhost)
+[2024-02-07 12:06:56Z WARN JobExtension] Ignore exception during read process environment variables: Cannot process request because the process (21236) has exited.
+[2024-02-07 12:06:56Z INFO JobExtension] Wait for all connectivity checks to finish.
+[2024-02-07 12:06:56Z INFO JobExtension] Connectivity check result: https://acghubeus0.actions.githubusercontent.com/_apis/health: OK
+[2024-02-07 12:06:56Z INFO JobExtension] Connectivity check result: https://results-receiver.actions.githubusercontent.com/health: OK
+[2024-02-07 12:06:56Z INFO JobExtension] Connectivity check result: https://actions-results-receiver-production.githubapp.com/health: OK
+[2024-02-07 12:06:56Z INFO JobExtension] Connectivity check result: https://pipelinesghubeus25.actions.githubusercontent.com/_apis/health: OK
+[2024-02-07 12:06:56Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "e84a5abf-7952-4637-b1fa-1a76a77b31e1",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2024-02-07T12:06:56.4407439Z",
+  "finishTime": "2024-02-07T12:06:56.5203483Z"
+}.
+[2024-02-07 12:06:56Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2024-02-07 12:06:56Z INFO JobRunner] Completing the job execution context.
+[2024-02-07 12:06:56Z INFO JobRunner] Shutting down the job server queue.
+[2024-02-07 12:06:56Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2024-02-07 12:06:57Z INFO JobServerQueue] All queue process task stopped.
+[2024-02-07 12:06:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f1d083f0-1e16-473f-8721-d7f5c04556e5', success rate: 1/1.
+[2024-02-07 12:06:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'e84a5abf-7952-4637-b1fa-1a76a77b31e1', success rate: 1/1.
+[2024-02-07 12:06:57Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'ca395085-040a-526b-2ce8-bdc85f692774', success rate: 1/1.
+[2024-02-07 12:06:57Z INFO JobServerQueue] Web console line queue drained.
+[2024-02-07 12:06:57Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2024-02-07 12:06:58Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2024-02-07 12:06:58Z INFO JobServerQueue] File upload queue drained.
+[2024-02-07 12:06:58Z INFO JobServerQueue] Starting results-based upload queue...
+[2024-02-07 12:06:58Z INFO JobServerQueue] Uploading 3 file(s) in one shot through results service.
+[2024-02-07 12:06:58Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-02-07 12:06:58Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag\blocks\cacb3030-5b31-4f07-a84e-e4cd56498bd0_f1d083f0-1e16-473f-8721-d7f5c04556e5.1
+[2024-02-07 12:06:58Z INFO JobServerQueue] Got a step log file to send to results service.
+[2024-02-07 12:06:58Z INFO JobServerQueue] Starting upload of step log file to results service ResultsLog, C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag\blocks\cacb3030-5b31-4f07-a84e-e4cd56498bd0_e84a5abf-7952-4637-b1fa-1a76a77b31e1.1
+[2024-02-07 12:06:59Z INFO JobServerQueue] Got a job log file to send to results service.
+[2024-02-07 12:06:59Z INFO JobServerQueue] Starting upload of job log file to results service ResultsLog, C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag\blocks\cacb3030-5b31-4f07-a84e-e4cd56498bd0_ca395085-040a-526b-2ce8-bdc85f692774.1
+[2024-02-07 12:06:59Z INFO JobServerQueue] Tried to upload 3 file(s) to results, success rate: 3/3.
+[2024-02-07 12:06:59Z INFO JobServerQueue] Results upload queue drained.
+[2024-02-07 12:06:59Z INFO JobServerQueue] Timeline update queue drained.
+[2024-02-07 12:06:59Z INFO JobServerQueue] Disposing job server ...
+[2024-02-07 12:06:59Z INFO JobServerQueue] Disposing results server ...
+[2024-02-07 12:06:59Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2024-02-07 12:06:59Z INFO JobServerQueue] Actions upload time: 1999 ms, Result upload time: 3531 ms
+[2024-02-07 12:06:59Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp
+[2024-02-07 12:06:59Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 12:06:59Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 12:06:59Z INFO HostContext] Well known directory 'Diag': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag'
+[2024-02-07 12:06:59Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_diag\.telemetry'
+[2024-02-07 12:06:59Z INFO JobRunner] Raising job completed event
+[2024-02-07 12:06:59Z INFO Worker] Job completed.

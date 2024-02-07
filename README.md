@@ -2,8 +2,6 @@
 Este website foi criado com  [Docusaurus](https://docusaurus.io/).
 
 
-![img alt](/img/docusaurus.png)
-
 ## O que é Docusaurus?
 O Docusaurus é um gerador de sites estáticos que utiliza o React, uma das principais bibliotecas JavaScript, para a criação de páginas. Ele é especialmente voltado para a criação e gerenciamento de sites onde o conteúdo é o protagonista.
 
