@@ -1,198 +1,102 @@
-This website was created with [Docusaurus](https://docusaurus.io/).
 
-# What's In This Document
+Este website foi criado com  [Docusaurus](https://docusaurus.io/).
 
-- [Get Started in 5 Minutes](#get-started-in-5-minutes)
-- [Directory Structure](#directory-structure)
-- [Editing Content](#editing-content)
-- [Adding Content](#adding-content)
-- [Full Documentation](#full-documentation)
 
-# Get Started in 5 Minutes
+![img alt](/img/docusaurus.png)
 
-1. Make sure all the dependencies for the website are installed:
+## O que é Docusaurus?
+O Docusaurus é um gerador de sites estáticos que utiliza o React, uma das principais bibliotecas JavaScript, para a criação de páginas. Ele é especialmente voltado para a criação e gerenciamento de sites onde o conteúdo é o protagonista.
 
-```sh
-# Install dependencies
-$ yarn
-```
+Ele permite que você crie um site completo, com recursos como blog, de forma rápida e fácil, destacando seu conteúdo desde o início. Como o conteúdo é o foco com Docusaurus, é perfeito para criar sites de documentação como wikis. Ele também utiliza markdown, que é ideal tanto para colaboração quanto para armazenamento em um repositório git.
 
-2. Run your dev server:
+Além disso, o Docusaurus tem uma tonelada de recursos incríveis como i18n, pesquisa e temas personalizados.
 
-```sh
-# Start the site
-$ yarn start
-```
 
-## Directory Structure
+## Requirements
 
-Your project file structure should look something like this
+[Node.js](https://nodejs.org/en/download/) version 18.0.
 
 ```
-my-docusaurus/
-  docs/
-    doc-1.md
-    doc-2.md
-    doc-3.md
-  website/
-    blog/
-      2016-3-11-oldest-post.md
-      2017-10-24-newest-post.md
-    core/
-    node_modules/
-    pages/
-    static/
-      css/
-      img/
-    package.json
-    sidebars.json
-    siteConfig.js
+sudo apt-get install -y nodejs
+```
+Ao instalar o Node.js, é recomendável que você marque todas as caixas de seleção relacionadas às dependências.
+
+## Instalação
+
+Agora podemos começar criando nosso primeiro website com o docsaurus.
+
+## Website
+
+Nesses tutorial iremos utilizar as linhas de comando, é possível criar o esqueleto com as pastas e exemplos iniciais mais simples do website.
+Em um repositório vazio utilize esta linha de comando, e ele criará o diretório.
+
+```
+npx create-docusaurus@latest my-website classic
 ```
 
-# Editing Content
+## Estrutura do Projeto
 
-## Editing an existing docs page
+Irá aparecer uma estrutura similar a esta em seu repositório.
 
-Edit docs by navigating to `docs/` and editing the corresponding document:
+```
+meu-site
+├── blog
+│   ├── 2019-05-28-hola.md
+│   ├── 2019-05-29-hello-world.md
+│   └── 2020-05-30-welcome.md
+├── docs
+│   ├── doc1.md
+│   ├── doc2.md
+│   ├── doc3.md
+│   └── mdx.md
+├── src
+│   ├── css
+│   │   └── custom.css
+│   └── pages
+│       ├── styles.module.css
+│       └── index.js
+├── static
+│   └── img
+├── docusaurus.config.js
+├── package.json
+├── README.md
+├── sidebars.js
+└── yarn.lock
 
-`docs/doc-to-be-edited.md`
-
-```markdown
----
-id: page-needs-edit
-title: This Doc Needs To Be Edited
----
-
-Edit me...
 ```
 
-For more information about docs, click [here](https://docusaurus.io/docs/en/navigation)
+Sobre a estrutura das pastas:
+#### blog 
+Contém os arquivos Markdown do blog. Mais detalhes podem ser encontrados no guia do [Blog](https://docusaurus.io/pt-BR/docs/blog)
+#### docs 
+Contém os arquivos Markdown para os documentos. Personalize a ordem da barra lateral `sidebars.js path`. Mais detalhes podem ser encontrados no [Docs](https://docusaurus.io/pt-BR/docs/docs-introduction.).
+#### scr  
+É opcional colocar seus arquivos não relacionados à documentação aqui.é válido para organizaçaõ do projeto em si.
+##### src/pages
+Aceita arquivos JSX/TSX/MDX serão convertidos em páginas do seu site. Mais detalhes podem ser encontrados no [Pages](https://docusaurus.io/pt-BR/docs/creating-pages)
+#### static 
+Pasta de arquivos estáricos. Todos arquivos aqui serão copiados para raiz do direótiro `build`. 
+#### docusaurus.config.js 
+O arquivo que contém toda a configuração do site. == `siteConfg.js`
+#### package.json 
+Você pode instalar e usar quaisquer pacotes npm que você goste.
+#### sidebars.js 
+Usado pela documentação para organizar a ordem dos documentos na barra lateral.
 
-## Editing an existing blog post
+## Executando servidor 
+Você pode usar um servidor local de desenvolvimento para servir seu site e visualizar as alterações , conforme o constrói.
 
-Edit blog posts by navigating to `website/blog` and editing the corresponding post:
-
-`website/blog/post-to-be-edited.md`
-
-```markdown
----
-id: post-needs-edit
-title: This Blog Post Needs To Be Edited
----
-
-Edit me...
+```
+cd meu-site
+npm run start
+```
+ou
+```
+cd meu-site
+yarn run start
 ```
 
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
 
-# Adding Content
+Por padrão, uma janela do navegador será aberta em http://localhost:3000.
 
-## Adding a new docs page to an existing sidebar
-
-1. Create the doc as a new markdown file in `/docs`, example `docs/newly-created-doc.md`:
-
-```md
----
-id: newly-created-doc
-title: This Doc Needs To Be Edited
----
-
-My new content here..
-```
-
-1. Refer to that doc's ID in an existing sidebar in `website/sidebars.json`:
-
-```javascript
-// Add newly-created-doc to the Getting Started category of docs
-{
-  "docs": {
-    "Getting Started": [
-      "quick-start",
-      "newly-created-doc" // new doc here
-    ],
-    ...
-  },
-  ...
-}
-```
-
-For more information about adding new docs, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding a new blog post
-
-1. Make sure there is a header link to your blog in `website/siteConfig.js`:
-
-`website/siteConfig.js`
-
-```javascript
-headerLinks: [
-    ...
-    { blog: true, label: 'Blog' },
-    ...
-]
-```
-
-2. Create the blog post with the format `YYYY-MM-DD-My-Blog-Post-Title.md` in `website/blog`:
-
-`website/blog/2018-05-21-New-Blog-Post.md`
-
-```markdown
----
-author: Frank Li
-authorURL: https://twitter.com/foobarbaz
-authorFBID: 503283835
-title: New Blog Post
----
-
-Lorem Ipsum...
-```
-
-For more information about blog posts, click [here](https://docusaurus.io/docs/en/adding-blog)
-
-## Adding items to your site's top navigation bar
-
-1. Add links to docs, custom pages or external links by editing the headerLinks field of `website/siteConfig.js`:
-
-`website/siteConfig.js`
-
-```javascript
-{
-  headerLinks: [
-    ...
-    /* you can add docs */
-    { doc: 'my-examples', label: 'Examples' },
-    /* you can add custom pages */
-    { page: 'help', label: 'Help' },
-    /* you can add external links */
-    { href: 'https://github.com/facebook/docusaurus', label: 'GitHub' },
-    ...
-  ],
-  ...
-}
-```
-
-For more information about the navigation bar, click [here](https://docusaurus.io/docs/en/navigation)
-
-## Adding custom pages
-
-1. Docusaurus uses React components to build pages. The components are saved as .js files in `website/pages/en`:
-1. If you want your page to show up in your navigation header, you will need to update `website/siteConfig.js` to add to the `headerLinks` element:
-
-`website/siteConfig.js`
-
-```javascript
-{
-  headerLinks: [
-    ...
-    { page: 'my-new-custom-page', label: 'My New Custom Page' },
-    ...
-  ],
-  ...
-}
-```
-
-For more information about custom pages, click [here](https://docusaurus.io/docs/en/custom-pages).
-
-# Full Documentation
-
-Full documentation can be found on the [website](https://docusaurus.io/).
+Parabéns! Você acabou de criar o seu primeiro site no Docusaurus! Navegue pelo site para ver o que está disponível.

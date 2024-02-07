@@ -1,0 +1,99 @@
+﻿2024-02-07T12:06:12.9034692Z ##[group]Run docker ps  
+2024-02-07T12:06:12.9035119Z [36;1mdocker ps  [0m
+2024-02-07T12:06:12.9035359Z [36;1mdocker compose down[0m
+2024-02-07T12:06:12.9035615Z [36;1mdocker container stop $(docker image ls -aq)[0m
+2024-02-07T12:06:12.9036354Z [36;1mdocker ps  [0m
+2024-02-07T12:06:12.9036521Z [36;1mdocker image ls[0m
+2024-02-07T12:06:12.9036811Z [36;1mdocker rmi $(docker images 'docusaurus-1r1sjc-docusaurus' -a -q)[0m
+2024-02-07T12:06:12.9037131Z [36;1mdocker image ls[0m
+2024-02-07T12:06:12.9037310Z [36;1mdocker compose up -d[0m
+2024-02-07T12:06:12.9121604Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2024-02-07T12:06:12.9122023Z ##[endgroup]
+2024-02-07T12:06:13.1673246Z CONTAINER ID   IMAGE                          COMMAND                  CREATED         STATUS         PORTS                                                                                                         NAMES
+2024-02-07T12:06:13.1675538Z 3772fa78e2c7   docusaurus-1r1sjc-docusaurus   "docker-entrypoint.s…"   5 minutes ago   Up 5 minutes   0.0.0.0:3000->3000/tcp, 0.0.0.0:35729->35729/tcp                                                              docusaurus-1r1sjc-docusaurus-1
+2024-02-07T12:06:13.1677349Z e0871c37d3ee   preprotocolo-preprotocolo      "sh -c 'bash ./scrip…"   18 hours ago    Up 18 hours    0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T12:06:13.1679085Z c173d1758a61   rabbitmq:management            "docker-entrypoint.s…"   18 hours ago    Up 18 hours    4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T12:06:13.4381048Z  Container docusaurus-1r1sjc-docusaurus-1  Stopping
+2024-02-07T12:06:13.8791605Z  Container docusaurus-1r1sjc-docusaurus-1  Stopped
+2024-02-07T12:06:13.8792317Z  Container docusaurus-1r1sjc-docusaurus-1  Removing
+2024-02-07T12:06:13.8981318Z  Container docusaurus-1r1sjc-docusaurus-1  Removed
+2024-02-07T12:06:13.9019108Z  Network docusaurus-1r1sjc_default  Removing
+2024-02-07T12:06:14.1222505Z  Network docusaurus-1r1sjc_default  Removed
+2024-02-07T12:06:14.3393148Z Error response from daemon: No such container: 66c4e8a7c48d
+2024-02-07T12:06:14.3393767Z Error response from daemon: No such container: d8acb513f94a
+2024-02-07T12:06:14.3394303Z Error response from daemon: No such container: 931b0e282b37
+2024-02-07T12:06:14.3394802Z Error response from daemon: No such container: 5a24c4745e87
+2024-02-07T12:06:14.3395333Z Error response from daemon: No such container: 150345f7e130
+2024-02-07T12:06:14.3395870Z Error response from daemon: No such container: 908b04856102
+2024-02-07T12:06:14.4390401Z CONTAINER ID   IMAGE                       COMMAND                  CREATED        STATUS        PORTS                                                                                                         NAMES
+2024-02-07T12:06:14.4392213Z e0871c37d3ee   preprotocolo-preprotocolo   "sh -c 'bash ./scrip…"   18 hours ago   Up 18 hours   0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T12:06:14.4395794Z c173d1758a61   rabbitmq:management         "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T12:06:14.5338513Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED         SIZE
+2024-02-07T12:06:14.5339671Z docusaurus-1r1sjc-docusaurus                                                                 latest       66c4e8a7c48d   7 minutes ago   1.28GB
+2024-02-07T12:06:14.5340823Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   19 hours ago    1GB
+2024-02-07T12:06:14.5343606Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago     2.02GB
+2024-02-07T12:06:14.5345320Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago     1.02GB
+2024-02-07T12:06:14.5346560Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago    675MB
+2024-02-07T12:06:14.5347364Z rabbitmq                                                                                     management   908b04856102   8 months ago    246MB
+2024-02-07T12:06:14.7382092Z Untagged: docusaurus-1r1sjc-docusaurus:latest
+2024-02-07T12:06:14.7382895Z Deleted: sha256:66c4e8a7c48d8bd50a25daece9f50200d893e321a05a596b2c1bed7c3cee556f
+2024-02-07T12:06:14.8420713Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
+2024-02-07T12:06:14.8421855Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   19 hours ago   1GB
+2024-02-07T12:06:14.8423082Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago    2.02GB
+2024-02-07T12:06:14.8424501Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago    1.02GB
+2024-02-07T12:06:14.8425677Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago   675MB
+2024-02-07T12:06:14.8426471Z rabbitmq                                                                                     management   908b04856102   8 months ago   246MB
+2024-02-07T12:06:15.3227156Z 2024/02/07 09:06:15 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+2024-02-07T12:06:15.5529106Z #0 building with "default" instance using docker driver
+2024-02-07T12:06:15.5529361Z 
+2024-02-07T12:06:15.5529523Z #1 [docusaurus internal] load build definition from Dockerfile
+2024-02-07T12:06:15.5529834Z #1 transferring dockerfile: 194B done
+2024-02-07T12:06:15.5530054Z #1 DONE 0.0s
+2024-02-07T12:06:15.5530150Z 
+2024-02-07T12:06:15.5530307Z #2 [docusaurus internal] load metadata for docker.io/library/node:lts
+2024-02-07T12:06:16.5801381Z #2 DONE 1.2s
+2024-02-07T12:06:16.6801296Z 
+2024-02-07T12:06:16.6802921Z #3 [docusaurus internal] load .dockerignore
+2024-02-07T12:06:16.6803446Z #3 transferring context: 63B done
+2024-02-07T12:06:16.6803803Z #3 DONE 0.0s
+2024-02-07T12:06:16.6803937Z 
+2024-02-07T12:06:16.6805472Z #4 [docusaurus 1/5] FROM docker.io/library/node:lts@sha256:fd0115473b293460df5b217ea73ff216928f2b0bb7650c5e7aa56aae4c028426
+2024-02-07T12:06:16.6806228Z #4 DONE 0.0s
+2024-02-07T12:06:16.6806378Z 
+2024-02-07T12:06:16.6806497Z #5 [docusaurus internal] load build context
+2024-02-07T12:06:16.6806909Z #5 transferring context: 780.70kB 0.0s done
+2024-02-07T12:06:16.6807232Z #5 DONE 0.0s
+2024-02-07T12:06:16.6807379Z 
+2024-02-07T12:06:16.6807662Z #6 [docusaurus 2/5] WORKDIR /app/website
+2024-02-07T12:06:16.6808034Z #6 CACHED
+2024-02-07T12:06:16.6808159Z 
+2024-02-07T12:06:16.6808275Z #7 [docusaurus 3/5] COPY ./docs /app/docs
+2024-02-07T12:06:16.6808577Z #7 DONE 0.0s
+2024-02-07T12:06:16.6808700Z 
+2024-02-07T12:06:16.6808823Z #8 [docusaurus 4/5] COPY ./website /app/website
+2024-02-07T12:06:16.8917765Z #8 DONE 0.1s
+2024-02-07T12:06:16.8918041Z 
+2024-02-07T12:06:16.8918211Z #9 [docusaurus 5/5] RUN yarn install
+2024-02-07T12:06:17.1462530Z #9 0.413 yarn install v1.22.19
+2024-02-07T12:06:17.3201541Z #9 0.424 warning package.json: No license field
+2024-02-07T12:06:17.3201977Z #9 0.432 info No lockfile found.
+2024-02-07T12:06:17.3202208Z #9 0.436 warning No license field
+2024-02-07T12:06:17.3202450Z #9 0.437 [1/4] Resolving packages...
+2024-02-07T12:06:18.3052741Z #9 1.572 warning docusaurus > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+2024-02-07T12:06:19.2047330Z #9 2.472 warning docusaurus > highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+2024-02-07T12:06:19.3095746Z #9 2.575 warning docusaurus > @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+2024-02-07T12:06:19.5008353Z #9 2.609 warning docusaurus > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+2024-02-07T12:06:19.9663365Z #9 3.233 warning docusaurus > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+2024-02-07T12:06:19.9666851Z #9 3.233 warning docusaurus > crowdin-cli > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+2024-02-07T12:06:23.8867386Z #9 7.153 warning docusaurus > @babel/polyfill > core-js@2.6.12: core-js@<3.23.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Some versions have web compatibility issues. Please, upgrade your dependencies to the actual version of core-js.
+2024-02-07T12:06:24.9347291Z #9 8.202 warning docusaurus > request > har-validator@5.1.5: this library is no longer supported
+2024-02-07T12:06:25.0805959Z #9 8.348 warning docusaurus > request > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2024-02-07T12:06:26.0571535Z #9 9.324 warning docusaurus > imagemin-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+2024-02-07T12:06:27.4097981Z #9 10.68 warning docusaurus > cssnano > cssnano-preset-default > postcss-svgo > svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+2024-02-07T12:06:29.9286461Z #9 13.19 warning docusaurus > markdown-toc > remarkable > autolinker > gulp-header@1.8.12: Removed event-stream from gulp-header
+2024-02-07T12:06:30.0814770Z #9 13.35 warning docusaurus > imagemin-gifsicle > exec-buffer > tempfile > uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+2024-02-07T12:06:30.4123355Z #9 13.68 warning docusaurus > imagemin-svgo > svgo > stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+2024-02-07T12:06:31.1773904Z #9 14.44 warning docusaurus > markdown-toc > gray-matter > coffee-script@1.12.7: CoffeeScript on NPM has moved to "coffeescript" (no hyphen)
+2024-02-07T12:06:34.7942294Z #9 18.06 warning docusaurus > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > snapdragon > source-map-resolve@0.5.3: See https://github.com/lydell/source-map-resolve#deprecated
+2024-02-07T12:06:35.6832438Z #9 18.95 warning docusaurus > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > snapdragon > source-map-resolve > resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+2024-02-07T12:06:35.8544385Z #9 18.96 warning docusaurus > react-dev-utils > fork-ts-checker-webpack-plugin > micromatch > snapdragon > source-map-resolve > urix@0.1.0: Plea
