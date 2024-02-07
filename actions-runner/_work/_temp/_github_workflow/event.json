@@ -1,7 +1,7 @@
 {
-  "after": "f8ba293395edc6a13dc22880b5952d36353734f1",
+  "after": "5f589c891654f6dd1576dfb1fb090f46b557def7",
   "base_ref": null,
-  "before": "e7cac634cd5bf7e87de0767e8d55952f396d53d2",
+  "before": "f8ba293395edc6a13dc22880b5952d36353734f1",
   "commits": [
     {
       "author": {
@@ -15,50 +15,14 @@
         "username": "ruthmira-1risjc"
       },
       "distinct": true,
-      "id": "e7b6c1022d1e0b31848e4696561204a9e8ab61da",
-      "message": "actions para github",
-      "timestamp": "2024-02-07T08:52:58-03:00",
-      "tree_id": "ca343c5575a5e61e5c76e210622deff661a87fc5",
-      "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/e7b6c1022d1e0b31848e4696561204a9e8ab61da"
-    },
-    {
-      "author": {
-        "email": "152284068+ruthmira-1risjc@users.noreply.github.com",
-        "name": "ruthmira-1risjc",
-        "username": "ruthmira-1risjc"
-      },
-      "committer": {
-        "email": "152284068+ruthmira-1risjc@users.noreply.github.com",
-        "name": "ruthmira-1risjc",
-        "username": "ruthmira-1risjc"
-      },
-      "distinct": true,
-      "id": "bdc3fec97c859c542b762c1740a8e2a6fd49cf3f",
+      "id": "5f589c891654f6dd1576dfb1fb090f46b557def7",
       "message": "github actions",
-      "timestamp": "2024-02-07T08:57:10-03:00",
-      "tree_id": "a3459d3fc96e786143a67ff71bc63b9f3f916890",
-      "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/bdc3fec97c859c542b762c1740a8e2a6fd49cf3f"
-    },
-    {
-      "author": {
-        "email": "152284068+ruthmira-1risjc@users.noreply.github.com",
-        "name": "ruthmira-1risjc",
-        "username": "ruthmira-1risjc"
-      },
-      "committer": {
-        "email": "152284068+ruthmira-1risjc@users.noreply.github.com",
-        "name": "ruthmira-1risjc",
-        "username": "ruthmira-1risjc"
-      },
-      "distinct": true,
-      "id": "f8ba293395edc6a13dc22880b5952d36353734f1",
-      "message": "Merge branch 'main' of https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc",
-      "timestamp": "2024-02-07T08:57:18-03:00",
-      "tree_id": "fd38f13074d173f9d2398a470ae8426100070d0c",
-      "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/f8ba293395edc6a13dc22880b5952d36353734f1"
+      "timestamp": "2024-02-07T08:58:17-03:00",
+      "tree_id": "bd916972b21ea05b74d5a586709f7785f80b0187",
+      "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/5f589c891654f6dd1576dfb1fb090f46b557def7"
     }
   ],
-  "compare": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/compare/e7cac634cd5b...f8ba293395ed",
+  "compare": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/compare/f8ba293395ed...5f589c891654",
   "created": false,
   "deleted": false,
   "forced": false,
@@ -74,11 +38,11 @@
       "username": "ruthmira-1risjc"
     },
     "distinct": true,
-    "id": "f8ba293395edc6a13dc22880b5952d36353734f1",
-    "message": "Merge branch 'main' of https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc",
-    "timestamp": "2024-02-07T08:57:18-03:00",
-    "tree_id": "fd38f13074d173f9d2398a470ae8426100070d0c",
-    "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/f8ba293395edc6a13dc22880b5952d36353734f1"
+    "id": "5f589c891654f6dd1576dfb1fb090f46b557def7",
+    "message": "github actions",
+    "timestamp": "2024-02-07T08:58:17-03:00",
+    "tree_id": "bd916972b21ea05b74d5a586709f7785f80b0187",
+    "url": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc/commit/5f589c891654f6dd1576dfb1fb090f46b557def7"
   },
   "pusher": {
     "email": "152284068+ruthmira-1risjc@users.noreply.github.com",
@@ -167,7 +131,7 @@
     },
     "private": false,
     "pulls_url": "https://api.github.com/repos/ruthmira-1risjc/Docusaurus-1r1sjc/pulls{/number}",
-    "pushed_at": 1707307070,
+    "pushed_at": 1707307108,
     "releases_url": "https://api.github.com/repos/ruthmira-1risjc/Docusaurus-1r1sjc/releases{/id}",
     "size": 264,
     "ssh_url": "git@github.com:ruthmira-1risjc/Docusaurus-1r1sjc.git",

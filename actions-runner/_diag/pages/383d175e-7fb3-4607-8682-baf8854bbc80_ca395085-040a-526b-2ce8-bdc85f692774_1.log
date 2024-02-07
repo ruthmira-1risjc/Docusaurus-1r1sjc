@@ -1,0 +1,53 @@
+﻿2024-02-07T11:59:10.0501870Z Current runner version: '2.312.0'
+2024-02-07T11:59:10.0510047Z Runner name: 'DELL-035'
+2024-02-07T11:59:10.0510440Z Runner group name: 'Default'
+2024-02-07T11:59:10.0511085Z Machine name: 'DELL-035'
+2024-02-07T11:59:10.0513759Z ##[group]GITHUB_TOKEN Permissions
+2024-02-07T11:59:10.0515183Z Contents: read
+2024-02-07T11:59:10.0515401Z Metadata: read
+2024-02-07T11:59:10.0515594Z ##[endgroup]
+2024-02-07T11:59:10.0518479Z Secret source: Actions
+2024-02-07T11:59:10.0518809Z Prepare workflow directory
+2024-02-07T11:59:10.1350987Z Prepare all required actions
+2024-02-07T11:59:10.1508726Z Getting action download info
+2024-02-07T11:59:10.4617741Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2024-02-07T11:59:11.6253851Z Complete job name: build
+2024-02-07T11:59:11.7644335Z ##[group]Run actions/checkout@v3
+2024-02-07T11:59:11.7644641Z with:
+2024-02-07T11:59:11.7644837Z   repository: ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:59:11.7645258Z   token: ***
+2024-02-07T11:59:11.7645468Z   ssh-strict: true
+2024-02-07T11:59:11.7645649Z   persist-credentials: true
+2024-02-07T11:59:11.7645839Z   clean: true
+2024-02-07T11:59:11.7646004Z   sparse-checkout-cone-mode: true
+2024-02-07T11:59:11.7646310Z   fetch-depth: 1
+2024-02-07T11:59:11.7646595Z   fetch-tags: false
+2024-02-07T11:59:11.7646754Z   lfs: false
+2024-02-07T11:59:11.7646907Z   submodules: false
+2024-02-07T11:59:11.7647076Z   set-safe-directory: true
+2024-02-07T11:59:11.7647263Z ##[endgroup]
+2024-02-07T11:59:12.1273755Z Syncing repository: ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:59:12.1275374Z ##[group]Getting Git version info
+2024-02-07T11:59:12.1276452Z Working directory is 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc'
+2024-02-07T11:59:12.1351796Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-02-07T11:59:12.1694602Z git version 2.43.0.windows.1
+2024-02-07T11:59:12.1751227Z ##[endgroup]
+2024-02-07T11:59:12.1767952Z Copying 'C:\Users\ruth.silva\.gitconfig' to 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\912c4ada-acdf-4b1d-abd0-66d4a3b8ed24\.gitconfig'
+2024-02-07T11:59:12.1807924Z Temporarily overriding HOME='C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\912c4ada-acdf-4b1d-abd0-66d4a3b8ed24' before making global git config changes
+2024-02-07T11:59:12.1809362Z Adding repository directory to the temporary git global config as a safe directory
+2024-02-07T11:59:12.1817824Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc
+2024-02-07T11:59:12.2218887Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --get remote.origin.url
+2024-02-07T11:59:12.2488006Z https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:59:12.2526889Z ##[group]Removing previously created refs, to avoid conflicts
+2024-02-07T11:59:12.2532006Z [command]"C:\Program Files\Git\cmd\git.exe" rev-parse --symbolic-full-name --verify --quiet HEAD
+2024-02-07T11:59:12.2936321Z refs/heads/main
+2024-02-07T11:59:12.2988386Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --detach
+2024-02-07T11:59:13.1052931Z HEAD is now at f8ba293 Merge branch 'main' of https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:59:13.1765428Z ##[endgroup]
+2024-02-07T11:59:13.1777259Z [command]"C:\Program Files\Git\cmd\git.exe" submodule status
+2024-02-07T11:59:13.9026736Z ##[error]fatal: no submodule mapping found in .gitmodules for path 'actions-runner/_work/Docusaurus-1r1sjc/Docusaurus-1r1sjc'
+2024-02-07T11:59:13.9080294Z Bad Submodules found, removing existing files
+2024-02-07T11:59:13.9080739Z ##[group]Cleaning the repository
+2024-02-07T11:59:13.9086370Z [command]"C:\Program Files\Git\cmd\git.exe" clean -ffdx
+2024-02-07T11:59:13.9374215Z Removing website/i18n/
+2024-02-07T11:59:13.9410995Z [command]"C:\Program Files\Gi
