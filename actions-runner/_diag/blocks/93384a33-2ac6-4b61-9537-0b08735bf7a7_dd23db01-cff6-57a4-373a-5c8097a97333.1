@@ -1,0 +1,33 @@
+﻿2024-02-07T11:52:28.2695307Z ##[group]Run docker ps  
+2024-02-07T11:52:28.2695811Z [36;1mdocker ps  [0m
+2024-02-07T11:52:28.2696090Z [36;1mdocker compose down[0m
+2024-02-07T11:52:28.2696573Z [36;1mdocker container stop $(docker image ls -aq)[0m
+2024-02-07T11:52:28.2696984Z [36;1mdocker ps  [0m
+2024-02-07T11:52:28.2697233Z [36;1mdocker image ls[0m
+2024-02-07T11:52:28.2697682Z [36;1mdocker rmi $(docker images 'docusaurus-1r1sjc-docusaurus' -a -q)[0m
+2024-02-07T11:52:28.2698191Z [36;1mdocker image ls[0m
+2024-02-07T11:52:28.2698463Z [36;1mdocker compose up -d[0m
+2024-02-07T11:52:28.2776192Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2024-02-07T11:52:28.2776700Z ##[endgroup]
+2024-02-07T11:52:28.5273846Z CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS        PORTS                                                                                                         NAMES
+2024-02-07T11:52:28.5275556Z b404d555ff67   docusaurus-1r1sjc-docusaurus   "docker-entrypoint.s…"   18 hours ago   Up 18 hours   0.0.0.0:3000->3000/tcp, 0.0.0.0:35729->35729/tcp                                                              docusaurus-1r1sjc-docusaurus-1
+2024-02-07T11:52:28.5276829Z e0871c37d3ee   preprotocolo-preprotocolo      "sh -c 'bash ./scrip…"   18 hours ago   Up 18 hours   0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T11:52:28.5278774Z c173d1758a61   rabbitmq:management            "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T11:52:28.8747439Z  Container docusaurus-1r1sjc-docusaurus-1  Stopping
+2024-02-07T11:52:29.5061192Z  Container docusaurus-1r1sjc-docusaurus-1  Stopped
+2024-02-07T11:52:29.5061816Z  Container docusaurus-1r1sjc-docusaurus-1  Removing
+2024-02-07T11:52:29.5310080Z  Container docusaurus-1r1sjc-docusaurus-1  Removed
+2024-02-07T11:52:29.5358389Z  Network docusaurus-1r1sjc_default  Removing
+2024-02-07T11:52:29.7852746Z  Network docusaurus-1r1sjc_default  Removed
+2024-02-07T11:52:30.0078949Z Error response from daemon: No such container: d8acb513f94a
+2024-02-07T11:52:30.0079542Z Error response from daemon: No such container: 4258e4949133
+2024-02-07T11:52:30.0080093Z Error response from daemon: No such container: 931b0e282b37
+2024-02-07T11:52:30.0080607Z Error response from daemon: No such container: 5a24c4745e87
+2024-02-07T11:52:30.0081083Z Error response from daemon: No such container: 150345f7e130
+2024-02-07T11:52:30.0081568Z Error response from daemon: No such container: 908b04856102
+2024-02-07T11:52:30.1041172Z CONTAINER ID   IMAGE                       COMMAND                  CREATED        STATUS        PORTS                                                                                                         NAMES
+2024-02-07T11:52:30.1042900Z e0871c37d3ee   preprotocolo-preprotocolo   "sh -c 'bash ./scrip…"   18 hours ago   Up 18 hours   0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T11:52:30.1045050Z c173d1758a61   rabbitmq:management         "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T11:52:30.2072388Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
+2024-02-07T11:52:30.2073281Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   18 hours ago   1GB
+2024-02-07T11:52:30.2074122Z docusaurus-1r1sjc-docusaurus                                                                 latest       4258e4949133   5 days ago  

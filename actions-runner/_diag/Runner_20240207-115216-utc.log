@@ -1,0 +1,125 @@
+[2024-02-07 11:52:16Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'Runner': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.runner'
+[2024-02-07 11:52:16Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2024-02-07 11:52:16Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.22621.
+[2024-02-07 11:52:16Z INFO Listener] Version: 2.312.0
+[2024-02-07 11:52:16Z INFO Listener] Commit: 1615de2f78ce16935be95ace79d35ed22b0837be
+[2024-02-07 11:52:16Z INFO Listener] Culture: pt-BR
+[2024-02-07 11:52:16Z INFO Listener] UI Culture: pt-BR
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO Listener] Validating directory permissions for: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO CommandLineParser] Parse
+[2024-02-07 11:52:16Z INFO CommandLineParser] Parsing 1 args
+[2024-02-07 11:52:16Z INFO CommandLineParser] parsing argument
+[2024-02-07 11:52:16Z INFO CommandLineParser] HasArgs: False
+[2024-02-07 11:52:16Z INFO CommandLineParser] Adding Command: run
+[2024-02-07 11:52:16Z INFO Listener] Arguments parsed
+[2024-02-07 11:52:16Z INFO Runner] ExecuteCommand
+[2024-02-07 11:52:16Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin\Runner.Listener.dll
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] binPath: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] RootFolder: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'Runner': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.runner'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] ConfigFilePath: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.runner
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] CredFilePath: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_migrated'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_migrated
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'Service': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.service'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.service
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'help': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'version': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'commit': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'check': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Command 'configure': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Command 'remove': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Command 'warmup': 'False'
+[2024-02-07 11:52:16Z INFO ConfigurationManager] LoadSettings
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured()
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured: True
+[2024-02-07 11:52:16Z INFO ConfigurationManager] Is configured: True
+[2024-02-07 11:52:16Z INFO ConfigurationStore] Read setting file: 317 chars
+[2024-02-07 11:52:16Z INFO ConfigurationManager] Settings Loaded
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsServiceConfigured()
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsServiceConfigured: False
+[2024-02-07 11:52:16Z INFO CommandSettings] Command 'run': 'True'
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured()
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured: True
+[2024-02-07 11:52:16Z INFO ConfigurationManager] Is configured: True
+[2024-02-07 11:52:16Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2024-02-07 11:52:16Z INFO Runner] Set runner startup type - Manual
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'once': 'False'
+[2024-02-07 11:52:16Z INFO CommandSettings] Flag 'once': 'False'
+[2024-02-07 11:52:16Z INFO Runner] RunAsync
+[2024-02-07 11:52:16Z INFO ConfigurationManager] LoadSettings
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured()
+[2024-02-07 11:52:16Z INFO ConfigurationStore] IsConfigured: True
+[2024-02-07 11:52:16Z INFO ConfigurationManager] Is configured: True
+[2024-02-07 11:52:16Z INFO ConfigurationManager] Settings Loaded
+[2024-02-07 11:52:16Z INFO MessageListener] {
+  "AgentId": 21,
+  "AgentName": "DELL-035",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelinesghubeus25.actions.githubusercontent.com/nbX0GPznmMAyw9n07ciobAmRR2gYdwqMzr6aBkg4R4L6Sae553/",
+  "GitHubUrl": "https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc",
+  "WorkFolder": "_work"
+}
+[2024-02-07 11:52:16Z INFO MessageListener] Loading Credentials
+[2024-02-07 11:52:16Z INFO ConfigurationStore] HasCredentials()
+[2024-02-07 11:52:16Z INFO ConfigurationStore] stored True
+[2024-02-07 11:52:16Z INFO CredentialManager] GetCredentialProvider
+[2024-02-07 11:52:16Z INFO CredentialManager] Creating type OAuth
+[2024-02-07 11:52:16Z INFO CredentialManager] Creating credential type: OAuth
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:16Z INFO HostContext] Well known directory 'Root': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner'
+[2024-02-07 11:52:16Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_rsaparams'
+[2024-02-07 11:52:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_rsaparams
+[2024-02-07 11:52:16Z INFO MessageListener] Attempt to create session.
+[2024-02-07 11:52:16Z INFO MessageListener] Connecting to the Runner Server...
+[2024-02-07 11:52:16Z INFO RunnerServer] EstablishVssConnection
+[2024-02-07 11:52:16Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2024-02-07 11:52:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-07 11:52:16Z INFO RunnerServer] EstablishVssConnection
+[2024-02-07 11:52:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-02-07 11:52:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-07 11:52:16Z INFO RunnerServer] EstablishVssConnection
+[2024-02-07 11:52:16Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2024-02-07 11:52:16Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2024-02-07 11:52:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-07 11:52:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-07 11:52:17Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2024-02-07 11:52:17Z INFO MessageListener] VssConnection created
+[2024-02-07 11:52:17Z INFO Terminal] WRITE LINE: 
+[2024-02-07 11:52:17Z INFO Terminal] WRITE LINE: 
+[2024-02-07 11:52:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_rsaparams
+[2024-02-07 11:52:17Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_rsaparams
+[2024-02-07 11:52:17Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2024-02-07 11:52:18Z INFO MessageListener] Session created.
+[2024-02-07 11:52:18Z INFO Terminal] WRITE LINE: Current runner version: '2.312.0'
+[2024-02-07 11:52:18Z INFO Terminal] WRITE LINE: 2024-02-07 11:52:18Z: Listening for Jobs
+[2024-02-07 11:52:18Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2024-02-07 11:52:21Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\.credentials_rsaparams
+[2024-02-07 11:52:21Z INFO MessageListener] Message '1' received from session 'f6d11628-989f-4a81-be86-1c59a0d3daf9'.
+[2024-02-07 11:52:21Z INFO Runner] Received job message of length 23547 from service, with hash '4cb06ee65e4ccbbfc2f78560c72d0778accd49ac9e35e6c628ca3b9a4c86cbf5'
+[2024-02-07 11:52:21Z INFO JobDispatcher] Job request 2 for plan 93384a33-2ac6-4b61-9537-0b08735bf7a7 job ca395085-040a-526b-2ce8-bdc85f692774 received.
+[2024-02-07 11:52:21Z INFO JobDispatcher] Pull OrchestrationId 93384a33-2ac6-4b61-9537-0b08735bf7a7.build.__default from JWT claims
+[2024-02-07 11:52:21Z INFO Terminal] WRITE LINE: 2024-02-07 11:52:21Z: Running job: build
+[2024-02-07 11:52:21Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-07 11:52:21Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 07/02/2024 12:02:21
