@@ -123,3 +123,20 @@
 [2024-02-07 11:52:21Z INFO Terminal] WRITE LINE: 2024-02-07 11:52:21Z: Running job: build
 [2024-02-07 11:52:21Z INFO JobDispatcher] Start renew job request 2 for job ca395085-040a-526b-2ce8-bdc85f692774.
 [2024-02-07 11:52:21Z INFO JobDispatcher] Successfully renew job request 2, job is valid till 07/02/2024 12:02:21
+[2024-02-07 11:52:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper] Starting process:
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin\Runner.Worker.exe'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1912 2292'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\bin'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2024-02-07 11:52:21Z INFO ProcessInvokerWrapper] Process started with process id 7796, waiting for process exit.
+[2024-02-07 11:52:21Z INFO JobDispatcher] Send job request message to worker for job ca395085-040a-526b-2ce8-bdc85f692774.
+[2024-02-07 11:52:21Z INFO ProcessChannel] Sending message of length 23547, with hash '4cb06ee65e4ccbbfc2f78560c72d0778accd49ac9e35e6c628ca3b9a4c86cbf5'
+[2024-02-07 11:52:21Z INFO JobNotification] Entering JobStarted Notification
+[2024-02-07 11:52:21Z INFO JobNotification] Entering StartMonitor

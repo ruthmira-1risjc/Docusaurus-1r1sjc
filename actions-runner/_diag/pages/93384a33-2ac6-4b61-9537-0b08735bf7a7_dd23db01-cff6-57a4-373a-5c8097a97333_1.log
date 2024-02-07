@@ -30,4 +30,52 @@
 2024-02-07T11:52:30.1045050Z c173d1758a61   rabbitmq:management         "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
 2024-02-07T11:52:30.2072388Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
 2024-02-07T11:52:30.2073281Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   18 hours ago   1GB
-2024-02-07T11:52:30.2074122Z docusaurus-1r1sjc-docusaurus                                                                 latest       4258e4949133   5 days ago  
+2024-02-07T11:52:30.2074122Z docusaurus-1r1sjc-docusaurus                                                                 latest       4258e4949133   5 days ago     1.28GB
+2024-02-07T11:52:30.2074649Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago    2.02GB
+2024-02-07T11:52:30.2077579Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago    1.02GB
+2024-02-07T11:52:30.2078682Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago   675MB
+2024-02-07T11:52:30.2079371Z rabbitmq                                                                                     management   908b04856102   8 months ago   246MB
+2024-02-07T11:52:30.4105998Z Untagged: docusaurus-1r1sjc-docusaurus:latest
+2024-02-07T11:52:30.4106482Z Deleted: sha256:4258e4949133440fbfde808ca6f1fa2653cd17b32f355b1248337a3a93ccf7fa
+2024-02-07T11:52:30.5106768Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
+2024-02-07T11:52:30.5107780Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   18 hours ago   1GB
+2024-02-07T11:52:30.5108585Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago    2.02GB
+2024-02-07T11:52:30.5109914Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago    1.02GB
+2024-02-07T11:52:30.5112969Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago   675MB
+2024-02-07T11:52:30.5113669Z rabbitmq                                                                                     management   908b04856102   8 months ago   246MB
+2024-02-07T11:52:31.1924096Z 2024/02/07 08:52:31 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+2024-02-07T11:52:31.4682698Z #0 building with "default" instance using docker driver
+2024-02-07T11:52:31.4683097Z 
+2024-02-07T11:52:31.4683415Z #1 [docusaurus internal] load build definition from Dockerfile
+2024-02-07T11:52:31.4683824Z #1 transferring dockerfile: 194B done
+2024-02-07T11:52:31.4684048Z #1 DONE 0.0s
+2024-02-07T11:52:31.4684149Z 
+2024-02-07T11:52:31.4684362Z #2 [docusaurus internal] load metadata for docker.io/library/node:lts
+2024-02-07T11:52:32.7635632Z #2 DONE 1.5s
+2024-02-07T11:52:32.9085258Z 
+2024-02-07T11:52:32.9085644Z #3 [docusaurus internal] load .dockerignore
+2024-02-07T11:52:32.9086213Z #3 transferring context: 63B done
+2024-02-07T11:52:32.9086505Z #3 DONE 0.0s
+2024-02-07T11:52:32.9086618Z 
+2024-02-07T11:52:32.9087050Z #4 [docusaurus 1/5] FROM docker.io/library/node:lts@sha256:fd0115473b293460df5b217ea73ff216928f2b0bb7650c5e7aa56aae4c028426
+2024-02-07T11:52:32.9087606Z #4 DONE 0.0s
+2024-02-07T11:52:32.9087724Z 
+2024-02-07T11:52:32.9087840Z #5 [docusaurus internal] load build context
+2024-02-07T11:52:32.9088093Z #5 transferring context: 437.76kB 0.0s done
+2024-02-07T11:52:32.9088288Z #5 DONE 0.0s
+2024-02-07T11:52:32.9088374Z 
+2024-02-07T11:52:32.9088451Z #6 [docusaurus 2/5] WORKDIR /app/website
+2024-02-07T11:52:32.9088811Z #6 CACHED
+2024-02-07T11:52:32.9088886Z 
+2024-02-07T11:52:32.9088957Z #7 [docusaurus 3/5] COPY ./docs /app/docs
+2024-02-07T11:52:32.9089162Z #7 DONE 0.1s
+2024-02-07T11:52:33.1257517Z 
+2024-02-07T11:52:33.1258348Z #8 [docusaurus 4/5] COPY ./website /app/website
+2024-02-07T11:52:33.1258862Z #8 DONE 0.1s
+2024-02-07T11:52:33.1259019Z 
+2024-02-07T11:52:33.1259168Z #9 [docusaurus 5/5] RUN yarn install
+2024-02-07T11:52:33.6368449Z #9 0.670 yarn install v1.22.19
+2024-02-07T11:52:33.8361414Z #9 0.687 warning package.json: No license field
+2024-02-07T11:52:33.8361913Z #9 0.700 info No lockfile found.
+2024-02-07T11:52:33.8362187Z #9 0.706 warning No license field
+2024-02-07T11:52:33.8362488Z #9 0.708 [1/4] Resolving packages..

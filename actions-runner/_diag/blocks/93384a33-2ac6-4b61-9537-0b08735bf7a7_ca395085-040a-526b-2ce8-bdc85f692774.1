@@ -1,0 +1,270 @@
+﻿2024-02-07T11:52:22.9791087Z Current runner version: '2.312.0'
+2024-02-07T11:52:22.9803636Z Runner name: 'DELL-035'
+2024-02-07T11:52:22.9804283Z Runner group name: 'Default'
+2024-02-07T11:52:22.9805056Z Machine name: 'DELL-035'
+2024-02-07T11:52:22.9809063Z ##[group]GITHUB_TOKEN Permissions
+2024-02-07T11:52:22.9812266Z Contents: read
+2024-02-07T11:52:22.9812682Z Metadata: read
+2024-02-07T11:52:22.9812973Z ##[endgroup]
+2024-02-07T11:52:22.9816516Z Secret source: Actions
+2024-02-07T11:52:22.9817109Z Prepare workflow directory
+2024-02-07T11:52:23.0570477Z Prepare all required actions
+2024-02-07T11:52:23.0690214Z Getting action download info
+2024-02-07T11:52:23.4031298Z Download action repository 'actions/checkout@v3' (SHA:f43a0e5ff2bd294095638e18286ca9a3d1956744)
+2024-02-07T11:52:24.5624467Z Complete job name: build
+2024-02-07T11:52:24.7215288Z ##[group]Run actions/checkout@v3
+2024-02-07T11:52:24.7215652Z with:
+2024-02-07T11:52:24.7215844Z   repository: ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:52:24.7216275Z   token: ***
+2024-02-07T11:52:24.7216471Z   ssh-strict: true
+2024-02-07T11:52:24.7216643Z   persist-credentials: true
+2024-02-07T11:52:24.7216826Z   clean: true
+2024-02-07T11:52:24.7217087Z   sparse-checkout-cone-mode: true
+2024-02-07T11:52:24.7217298Z   fetch-depth: 1
+2024-02-07T11:52:24.7217469Z   fetch-tags: false
+2024-02-07T11:52:24.7217631Z   lfs: false
+2024-02-07T11:52:24.7217789Z   submodules: false
+2024-02-07T11:52:24.7217957Z   set-safe-directory: true
+2024-02-07T11:52:24.7218151Z ##[endgroup]
+2024-02-07T11:52:25.4487399Z Syncing repository: ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:52:25.4488737Z ##[group]Getting Git version info
+2024-02-07T11:52:25.4489473Z Working directory is 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc'
+2024-02-07T11:52:25.4515313Z [command]"C:\Program Files\Git\cmd\git.exe" version
+2024-02-07T11:52:25.4808245Z git version 2.43.0.windows.1
+2024-02-07T11:52:25.4861182Z ##[endgroup]
+2024-02-07T11:52:25.4888408Z Copying 'C:\Users\ruth.silva\.gitconfig' to 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\b3909cd9-faf8-4509-82db-9c06cadf9710\.gitconfig'
+2024-02-07T11:52:25.4924501Z Temporarily overriding HOME='C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\_temp\b3909cd9-faf8-4509-82db-9c06cadf9710' before making global git config changes
+2024-02-07T11:52:25.4925854Z Adding repository directory to the temporary git global config as a safe directory
+2024-02-07T11:52:25.4936362Z [command]"C:\Program Files\Git\cmd\git.exe" config --global --add safe.directory C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc
+2024-02-07T11:52:25.5244929Z Deleting the contents of 'C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc'
+2024-02-07T11:52:25.5252453Z ##[group]Initializing the repository
+2024-02-07T11:52:25.5257613Z [command]"C:\Program Files\Git\cmd\git.exe" init C:\Users\ruth.silva\Desktop\Docusaurus-1r1sjc\actions-runner\_work\Docusaurus-1r1sjc\Docusaurus-1r1sjc
+2024-02-07T11:52:25.5696331Z Initialized empty Git repository in C:/Users/ruth.silva/Desktop/Docusaurus-1r1sjc/actions-runner/_work/Docusaurus-1r1sjc/Docusaurus-1r1sjc/.git/
+2024-02-07T11:52:25.5728840Z [command]"C:\Program Files\Git\cmd\git.exe" remote add origin https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:52:25.6091223Z ##[endgroup]
+2024-02-07T11:52:25.6091574Z ##[group]Disabling automatic garbage collection
+2024-02-07T11:52:25.6096536Z [command]"C:\Program Files\Git\cmd\git.exe" config --local gc.auto 0
+2024-02-07T11:52:25.6357221Z ##[endgroup]
+2024-02-07T11:52:25.6357542Z ##[group]Setting up auth
+2024-02-07T11:52:25.6365136Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2024-02-07T11:52:25.6636831Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2024-02-07T11:52:26.5234714Z [command]"C:\Program Files\Git\cmd\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2024-02-07T11:52:26.5549193Z [command]"C:\Program Files\Git\cmd\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2024-02-07T11:52:27.2175544Z [command]"C:\Program Files\Git\cmd\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2024-02-07T11:52:27.2514103Z ##[endgroup]
+2024-02-07T11:52:27.2514430Z ##[group]Fetching the repository
+2024-02-07T11:52:27.2524810Z [command]"C:\Program Files\Git\cmd\git.exe" -c protocol.version=2 fetch --no-tags --prune --progress --no-recurse-submodules --depth=1 origin +e7cac634cd5bf7e87de0767e8d55952f396d53d2:refs/remotes/origin/main
+2024-02-07T11:52:27.8566886Z remote: Enumerating objects: 58, done.        
+2024-02-07T11:52:27.8567596Z remote: Counting objects:   1% (1/58)        
+2024-02-07T11:52:27.8568031Z remote: Counting objects:   3% (2/58)        
+2024-02-07T11:52:27.8568439Z remote: Counting objects:   5% (3/58)        
+2024-02-07T11:52:27.8568836Z remote: Counting objects:   6% (4/58)        
+2024-02-07T11:52:27.8569227Z remote: Counting objects:   8% (5/58)        
+2024-02-07T11:52:27.8569620Z remote: Counting objects:  10% (6/58)        
+2024-02-07T11:52:27.8570078Z remote: Counting objects:  12% (7/58)        
+2024-02-07T11:52:27.8570463Z remote: Counting objects:  13% (8/58)        
+2024-02-07T11:52:27.8570847Z remote: Counting objects:  15% (9/58)        
+2024-02-07T11:52:27.8571260Z remote: Counting objects:  17% (10/58)        
+2024-02-07T11:52:27.8571675Z remote: Counting objects:  18% (11/58)        
+2024-02-07T11:52:27.8572081Z remote: Counting objects:  20% (12/58)        
+2024-02-07T11:52:27.8572465Z remote: Counting objects:  22% (13/58)        
+2024-02-07T11:52:27.8572868Z remote: Counting objects:  24% (14/58)        
+2024-02-07T11:52:27.8573271Z remote: Counting objects:  25% (15/58)        
+2024-02-07T11:52:27.8573656Z remote: Counting objects:  27% (16/58)        
+2024-02-07T11:52:27.8574115Z remote: Counting objects:  29% (17/58)        
+2024-02-07T11:52:27.8574504Z remote: Counting objects:  31% (18/58)        
+2024-02-07T11:52:27.8574893Z remote: Counting objects:  32% (19/58)        
+2024-02-07T11:52:27.8575281Z remote: Counting objects:  34% (20/58)        
+2024-02-07T11:52:27.8575676Z remote: Counting objects:  36% (21/58)        
+2024-02-07T11:52:27.8576065Z remote: Counting objects:  37% (22/58)        
+2024-02-07T11:52:27.8576451Z remote: Counting objects:  39% (23/58)        
+2024-02-07T11:52:27.8576829Z remote: Counting objects:  41% (24/58)        
+2024-02-07T11:52:27.8577219Z remote: Counting objects:  43% (25/58)        
+2024-02-07T11:52:27.8577599Z remote: Counting objects:  44% (26/58)        
+2024-02-07T11:52:27.8577995Z remote: Counting objects:  46% (27/58)        
+2024-02-07T11:52:27.8578445Z remote: Counting objects:  48% (28/58)        
+2024-02-07T11:52:27.8578828Z remote: Counting objects:  50% (29/58)        
+2024-02-07T11:52:27.8579213Z remote: Counting objects:  51% (30/58)        
+2024-02-07T11:52:27.8579601Z remote: Counting objects:  53% (31/58)        
+2024-02-07T11:52:27.8579986Z remote: Counting objects:  55% (32/58)        
+2024-02-07T11:52:27.8580396Z remote: Counting objects:  56% (33/58)        
+2024-02-07T11:52:27.8580792Z remote: Counting objects:  58% (34/58)        
+2024-02-07T11:52:27.8581186Z remote: Counting objects:  60% (35/58)        
+2024-02-07T11:52:27.8581570Z remote: Counting objects:  62% (36/58)        
+2024-02-07T11:52:27.8581961Z remote: Counting objects:  63% (37/58)        
+2024-02-07T11:52:27.8582408Z remote: Counting objects:  65% (38/58)        
+2024-02-07T11:52:27.8582796Z remote: Counting objects:  67% (39/58)        
+2024-02-07T11:52:27.8583928Z remote: Counting objects:  68% (40/58)        
+2024-02-07T11:52:27.8584316Z remote: Counting objects:  70% (41/58)        
+2024-02-07T11:52:27.8584707Z remote: Counting objects:  72% (42/58)        
+2024-02-07T11:52:27.8585086Z remote: Counting objects:  74% (43/58)        
+2024-02-07T11:52:27.8585477Z remote: Counting objects:  75% (44/58)        
+2024-02-07T11:52:27.8585868Z remote: Counting objects:  77% (45/58)        
+2024-02-07T11:52:27.8586249Z remote: Counting objects:  79% (46/58)        
+2024-02-07T11:52:27.8586646Z remote: Counting objects:  81% (47/58)        
+2024-02-07T11:52:27.8587036Z remote: Counting objects:  82% (48/58)        
+2024-02-07T11:52:27.8587482Z remote: Counting objects:  84% (49/58)        
+2024-02-07T11:52:27.8588283Z remote: Counting objects:  86% (50/58)        
+2024-02-07T11:52:27.8588670Z remote: Counting objects:  87% (51/58)        
+2024-02-07T11:52:27.8589055Z remote: Counting objects:  89% (52/58)        
+2024-02-07T11:52:27.8589445Z remote: Counting objects:  91% (53/58)        
+2024-02-07T11:52:27.8589836Z remote: Counting objects:  93% (54/58)        
+2024-02-07T11:52:27.8590220Z remote: Counting objects:  94% (55/58)        
+2024-02-07T11:52:27.8590603Z remote: Counting objects:  96% (56/58)        
+2024-02-07T11:52:27.8590993Z remote: Counting objects:  98% (57/58)        
+2024-02-07T11:52:27.8631193Z remote: Counting objects: 100% (58/58)        
+2024-02-07T11:52:27.8631662Z remote: Counting objects: 100% (58/58), done.        
+2024-02-07T11:52:27.8632287Z remote: Compressing objects:   1% (1/52)        
+2024-02-07T11:52:27.8632726Z remote: Compressing objects:   3% (2/52)        
+2024-02-07T11:52:27.8633073Z remote: Compressing objects:   5% (3/52)        
+2024-02-07T11:52:27.8633374Z remote: Compressing objects:   7% (4/52)        
+2024-02-07T11:52:27.8633619Z remote: Compressing objects:   9% (5/52)        
+2024-02-07T11:52:27.8633852Z remote: Compressing objects:  11% (6/52)        
+2024-02-07T11:52:27.8634088Z remote: Compressing objects:  13% (7/52)        
+2024-02-07T11:52:27.8634336Z remote: Compressing objects:  15% (8/52)        
+2024-02-07T11:52:27.8634562Z remote: Compressing objects:  17% (9/52)        
+2024-02-07T11:52:27.8634804Z remote: Compressing objects:  19% (10/52)        
+2024-02-07T11:52:27.8635057Z remote: Compressing objects:  21% (11/52)        
+2024-02-07T11:52:27.8635306Z remote: Compressing objects:  23% (12/52)        
+2024-02-07T11:52:27.8635536Z remote: Compressing objects:  25% (13/52)        
+2024-02-07T11:52:27.8635783Z remote: Compressing objects:  26% (14/52)        
+2024-02-07T11:52:27.8636016Z remote: Compressing objects:  28% (15/52)        
+2024-02-07T11:52:27.8636355Z remote: Compressing objects:  30% (16/52)        
+2024-02-07T11:52:27.8636880Z remote: Compressing objects:  32% (17/52)        
+2024-02-07T11:52:27.8637272Z remote: Compressing objects:  34% (18/52)        
+2024-02-07T11:52:27.8637767Z remote: Compressing objects:  36% (19/52)        
+2024-02-07T11:52:27.8638212Z remote: Compressing objects:  38% (20/52)        
+2024-02-07T11:52:27.8638626Z remote: Compressing objects:  40% (21/52)        
+2024-02-07T11:52:27.8639032Z remote: Compressing objects:  42% (22/52)        
+2024-02-07T11:52:27.8639451Z remote: Compressing objects:  44% (23/52)        
+2024-02-07T11:52:27.8639935Z remote: Compressing objects:  46% (24/52)        
+2024-02-07T11:52:27.8640404Z remote: Compressing objects:  48% (25/52)        
+2024-02-07T11:52:27.8640989Z remote: Compressing objects:  50% (26/52)        
+2024-02-07T11:52:27.8641513Z remote: Compressing objects:  51% (27/52)        
+2024-02-07T11:52:27.8642001Z remote: Compressing objects:  53% (28/52)        
+2024-02-07T11:52:27.8642486Z remote: Compressing objects:  55% (29/52)        
+2024-02-07T11:52:27.8686498Z remote: Compressing objects:  57% (30/52)        
+2024-02-07T11:52:27.8687058Z remote: Compressing objects:  59% (31/52)        
+2024-02-07T11:52:27.8687563Z remote: Compressing objects:  61% (32/52)        
+2024-02-07T11:52:27.8688297Z remote: Compressing objects:  63% (33/52)        
+2024-02-07T11:52:27.8688790Z remote: Compressing objects:  65% (34/52)        
+2024-02-07T11:52:27.8689235Z remote: Compressing objects:  67% (35/52)        
+2024-02-07T11:52:27.8689701Z remote: Compressing objects:  69% (36/52)        
+2024-02-07T11:52:27.8690912Z remote: Compressing objects:  71% (37/52)        
+2024-02-07T11:52:27.8691451Z remote: Compressing objects:  73% (38/52)        
+2024-02-07T11:52:27.8691974Z remote: Compressing objects:  75% (39/52)        
+2024-02-07T11:52:27.8692446Z remote: Compressing objects:  76% (40/52)        
+2024-02-07T11:52:27.8692941Z remote: Compressing objects:  78% (41/52)        
+2024-02-07T11:52:27.8693353Z remote: Compressing objects:  80% (42/52)        
+2024-02-07T11:52:27.8694029Z remote: Compressing objects:  82% (43/52)        
+2024-02-07T11:52:27.8694496Z remote: Compressing objects:  84% (44/52)        
+2024-02-07T11:52:27.8694947Z remote: Compressing objects:  86% (45/52)        
+2024-02-07T11:52:27.8695371Z remote: Compressing objects:  88% (46/52)        
+2024-02-07T11:52:27.8695845Z remote: Compressing objects:  90% (47/52)        
+2024-02-07T11:52:27.8696290Z remote: Compressing objects:  92% (48/52)        
+2024-02-07T11:52:27.8696788Z remote: Compressing objects:  94% (49/52)        
+2024-02-07T11:52:27.8697242Z remote: Compressing objects:  96% (50/52)        
+2024-02-07T11:52:27.8697689Z remote: Compressing objects:  98% (51/52)        
+2024-02-07T11:52:27.8698096Z remote: Compressing objects: 100% (52/52)        
+2024-02-07T11:52:27.8698599Z remote: Compressing objects: 100% (52/52), done.        
+2024-02-07T11:52:28.0333110Z remote: Total 58 (delta 2), reused 43 (delta 0), pack-reused 0        
+2024-02-07T11:52:28.0626194Z From https://github.com/ruthmira-1risjc/Docusaurus-1r1sjc
+2024-02-07T11:52:28.0626859Z  * [new ref]         e7cac634cd5bf7e87de0767e8d55952f396d53d2 -> origin/main
+2024-02-07T11:52:28.0836702Z ##[endgroup]
+2024-02-07T11:52:28.0837239Z ##[group]Determining the checkout info
+2024-02-07T11:52:28.0839147Z ##[endgroup]
+2024-02-07T11:52:28.0839889Z ##[group]Checking out the ref
+2024-02-07T11:52:28.0848366Z [command]"C:\Program Files\Git\cmd\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+2024-02-07T11:52:28.1567794Z branch 'main' set up to track 'origin/main'.
+2024-02-07T11:52:28.1568493Z Switched to a new branch 'main'
+2024-02-07T11:52:28.1595020Z ##[endgroup]
+2024-02-07T11:52:28.1934788Z [command]"C:\Program Files\Git\cmd\git.exe" log -1 --format='%H'
+2024-02-07T11:52:28.2249162Z 'e7cac634cd5bf7e87de0767e8d55952f396d53d2'
+2024-02-07T11:52:28.2695333Z ##[group]Run docker ps  
+2024-02-07T11:52:28.2695817Z [36;1mdocker ps  [0m
+2024-02-07T11:52:28.2696093Z [36;1mdocker compose down[0m
+2024-02-07T11:52:28.2696577Z [36;1mdocker container stop $(docker image ls -aq)[0m
+2024-02-07T11:52:28.2696988Z [36;1mdocker ps  [0m
+2024-02-07T11:52:28.2697236Z [36;1mdocker image ls[0m
+2024-02-07T11:52:28.2697686Z [36;1mdocker rmi $(docker images 'docusaurus-1r1sjc-docusaurus' -a -q)[0m
+2024-02-07T11:52:28.2698194Z [36;1mdocker image ls[0m
+2024-02-07T11:52:28.2698466Z [36;1mdocker compose up -d[0m
+2024-02-07T11:52:28.2776205Z shell: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.EXE -command ". '{0}'"
+2024-02-07T11:52:28.2776704Z ##[endgroup]
+2024-02-07T11:52:28.5273880Z CONTAINER ID   IMAGE                          COMMAND                  CREATED        STATUS        PORTS                                                                                                         NAMES
+2024-02-07T11:52:28.5275621Z b404d555ff67   docusaurus-1r1sjc-docusaurus   "docker-entrypoint.s…"   18 hours ago   Up 18 hours   0.0.0.0:3000->3000/tcp, 0.0.0.0:35729->35729/tcp                                                              docusaurus-1r1sjc-docusaurus-1
+2024-02-07T11:52:28.5276832Z e0871c37d3ee   preprotocolo-preprotocolo      "sh -c 'bash ./scrip…"   18 hours ago   Up 18 hours   0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T11:52:28.5278781Z c173d1758a61   rabbitmq:management            "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T11:52:28.8747474Z  Container docusaurus-1r1sjc-docusaurus-1  Stopping
+2024-02-07T11:52:29.5061232Z  Container docusaurus-1r1sjc-docusaurus-1  Stopped
+2024-02-07T11:52:29.5061818Z  Container docusaurus-1r1sjc-docusaurus-1  Removing
+2024-02-07T11:52:29.5310170Z  Container docusaurus-1r1sjc-docusaurus-1  Removed
+2024-02-07T11:52:29.5358433Z  Network docusaurus-1r1sjc_default  Removing
+2024-02-07T11:52:29.7852780Z  Network docusaurus-1r1sjc_default  Removed
+2024-02-07T11:52:30.0078978Z Error response from daemon: No such container: d8acb513f94a
+2024-02-07T11:52:30.0079545Z Error response from daemon: No such container: 4258e4949133
+2024-02-07T11:52:30.0080095Z Error response from daemon: No such container: 931b0e282b37
+2024-02-07T11:52:30.0080609Z Error response from daemon: No such container: 5a24c4745e87
+2024-02-07T11:52:30.0081086Z Error response from daemon: No such container: 150345f7e130
+2024-02-07T11:52:30.0081572Z Error response from daemon: No such container: 908b04856102
+2024-02-07T11:52:30.1041214Z CONTAINER ID   IMAGE                       COMMAND                  CREATED        STATUS        PORTS                                                                                                         NAMES
+2024-02-07T11:52:30.1042933Z e0871c37d3ee   preprotocolo-preprotocolo   "sh -c 'bash ./scrip…"   18 hours ago   Up 18 hours   0.0.0.0:8000->8000/tcp                                                                                        preprotocolo-preprotocolo-1
+2024-02-07T11:52:30.1045060Z c173d1758a61   rabbitmq:management         "docker-entrypoint.s…"   18 hours ago   Up 18 hours   4369/tcp, 5671/tcp, 0.0.0.0:5672->5672/tcp, 15671/tcp, 15691-15692/tcp, 25672/tcp, 0.0.0.0:15672->15672/tcp   preprotocolo-rabbitmq-1
+2024-02-07T11:52:30.2072427Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
+2024-02-07T11:52:30.2073287Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   18 hours ago   1GB
+2024-02-07T11:52:30.2074130Z docusaurus-1r1sjc-docusaurus                                                                 latest       4258e4949133   5 days ago     1.28GB
+2024-02-07T11:52:30.2076186Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago    2.02GB
+2024-02-07T11:52:30.2077586Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago    1.02GB
+2024-02-07T11:52:30.2078685Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago   675MB
+2024-02-07T11:52:30.2079376Z rabbitmq                                                                                     management   908b04856102   8 months ago   246MB
+2024-02-07T11:52:30.4106041Z Untagged: docusaurus-1r1sjc-docusaurus:latest
+2024-02-07T11:52:30.4106485Z Deleted: sha256:4258e4949133440fbfde808ca6f1fa2653cd17b32f355b1248337a3a93ccf7fa
+2024-02-07T11:52:30.5106822Z REPOSITORY                                                                                   TAG          IMAGE ID       CREATED        SIZE
+2024-02-07T11:52:30.5107785Z preprotocolo-preprotocolo                                                                    latest       d8acb513f94a   18 hours ago   1GB
+2024-02-07T11:52:30.5108588Z ghcr.io/puppeteer/puppeteer                                                                  latest       931b0e282b37   13 days ago    2.02GB
+2024-02-07T11:52:30.5109922Z vsc-projeto-ruda-c42af17c4f027cecb4489690813791b66498bee9348598beb842b56fd54ba1d1-features   latest       5a24c4745e87   7 weeks ago    1.02GB
+2024-02-07T11:52:30.5112978Z mcr.microsoft.com/devcontainers/base                                                         jammy        150345f7e130   2 months ago   675MB
+2024-02-07T11:52:30.5113671Z rabbitmq                                                                                     management   908b04856102   8 months ago   246MB
+2024-02-07T11:52:31.1924169Z 2024/02/07 08:52:31 http2: server: error reading preface from client //./pipe/docker_engine: file has already been closed
+2024-02-07T11:52:31.4682766Z #0 building with "default" instance using docker driver
+2024-02-07T11:52:31.4683101Z 
+2024-02-07T11:52:31.4683419Z #1 [docusaurus internal] load build definition from Dockerfile
+2024-02-07T11:52:31.4683826Z #1 transferring dockerfile: 194B done
+2024-02-07T11:52:31.4684050Z #1 DONE 0.0s
+2024-02-07T11:52:31.4684152Z 
+2024-02-07T11:52:31.4684365Z #2 [docusaurus internal] load metadata for docker.io/library/node:lts
+2024-02-07T11:52:32.7635667Z #2 DONE 1.5s
+2024-02-07T11:52:32.9085290Z 
+2024-02-07T11:52:32.9085652Z #3 [docusaurus internal] load .dockerignore
+2024-02-07T11:52:32.9086232Z #3 transferring context: 63B done
+2024-02-07T11:52:32.9086508Z #3 DONE 0.0s
+2024-02-07T11:52:32.9086621Z 
+2024-02-07T11:52:32.9087053Z #4 [docusaurus 1/5] FROM docker.io/library/node:lts@sha256:fd0115473b293460df5b217ea73ff216928f2b0bb7650c5e7aa56aae4c028426
+2024-02-07T11:52:32.9087609Z #4 DONE 0.0s
+2024-02-07T11:52:32.9087726Z 
+2024-02-07T11:52:32.9087857Z #5 [docusaurus internal] load build context
+2024-02-07T11:52:32.9088095Z #5 transferring context: 437.76kB 0.0s done
+2024-02-07T11:52:32.9088290Z #5 DONE 0.0s
+2024-02-07T11:52:32.9088376Z 
+2024-02-07T11:52:32.9088452Z #6 [docusaurus 2/5] WORKDIR /app/website
+2024-02-07T11:52:32.9088813Z #6 CACHED
+2024-02-07T11:52:32.9088888Z 
+2024-02-07T11:52:32.9088958Z #7 [docusaurus 3/5] COPY ./docs /app/docs
+2024-02-07T11:52:32.9089164Z #7 DONE 0.1s
+2024-02-07T11:52:33.1257586Z 
+2024-02-07T11:52:33.1258369Z #8 [docusaurus 4/5] COPY ./website /app/website
+2024-02-07T11:52:33.1258866Z #8 DONE 0.1s
+2024-02-07T11:52:33.1259022Z 
+2024-02-07T11:52:33.1259172Z #9 [docusaurus 5/5] RUN yarn install
+2024-02-07T11:52:33.6368488Z #9 0.670 yarn install v1.22.19
+2024-02-07T11:52:33.8361477Z #9 0.687 warning package.json: No license field
+2024-02-07T11:52:33.8361916Z #9 0.700 info No lockfile found.
+2024-02-07T11:52:33.8362190Z #9 0.706 warning No license field
+2024-02-07T11:52:33.8362491Z #9 0.708 [1/4] Resolving packages...
+2024-02-07T11:52:34.7979780Z #9 1.831 warning docusaurus > @babel/plugin-proposal-object-rest-spread@7.20.7: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-object-rest-spread instead.
+2024-02-07T11:52:34.9719664Z #9 1.850 warning docusaurus > @babel/plugin-proposal-class-properties@7.18.6: This proposal has been merged to the ECMAScript standard and thus this plugin is no longer maintained. Please use @babel/plugin-transform-class-properties instead.
+2024-02-07T11:52:34.9739231Z #9 2.008 warning docusaurus > highlight.js@9.18.5: Support has ended for 9.x series. Upgrade to @latest
+2024-02-07T11:52:35.4148325Z #9 2.448 warning docusaurus > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+2024-02-07T11:52:35.6930548Z #9 2.726 warning docusaurus > crowdin-cli > request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+2024-02-07T11:52:36.4216004Z #9 3.455 warning docusaurus > @babel/polyfill@7.12.1: 🚨 This package has been deprecated in favor of separate inclusion of a polyfill and regenerator-runtime (when needed). See the @babel/polyfill docs (https://babeljs.io/docs/en/babel-polyfill) for more information.
+2024-02-07T11:52:39.1020882Z #9 6.135 warning docusaurus > imagemin-svgo > svgo@1.3
