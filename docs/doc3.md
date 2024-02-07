@@ -89,3 +89,9 @@ $ ./run.cmd
 runs-on: self-hosted
 ~~~~
 
+Agora sua máquina irá aparecer está configurada:
+
+![alt text](/img/image6.png).
+
+Tudo pronto!
+
